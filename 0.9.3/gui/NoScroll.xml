@@ -23,5 +23,5 @@
     <!--
         Zoom level for first step of sniper mode, works only if "defZoom" is "False"
     -->
-    <defZoomVal>2.0</defZoomVal>
+    <defZoomVal>4.0</defZoomVal>
 </NoScroll.xml>

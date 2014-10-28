@@ -9,7 +9,6 @@
       <enable>True</enable>
       <alwaysVisible>False</alwaysVisible>
       <texture>gui/maps/ingame/aim/gun_marker_blue.dds</texture>
-      <scale>1</scale>
       <size>64 64</size>
       <elems>
         <top>
@@ -46,7 +45,6 @@
       <alwaysVisible>False</alwaysVisible>
       <useTextureGunMarker>True</useTextureGunMarker>
       <texture>gui/maps/ingame/aim/gun_marker_blue.dds</texture>
-      <scale>1</scale>
       <size>64 64</size>
       <elems>
         <top>
@@ -82,7 +80,6 @@
       <enable>True</enable>
       <alwaysVisible>False</alwaysVisible>
       <texture>gui/maps/ingame/aim/gun_marker_blue.dds</texture>
-      <scale>1</scale>
       <size>64 64</size>
       <elems>
         <top>
@@ -107,6 +104,26 @@
         </center>
       </elems>
     </serverGunMarker>
+    <!--
+		Enable or disable Sniper mode Scope Shadow.
+        <noBinoculars>True</noBinoculars> disabled. 
+		<noBinoculars>False</noBinoculars> enabled (default). 
+    --> 
     <noBinoculars>True</noBinoculars>
+
+    <!--
+        Resize option for Scope Shadow.
+        Works only if set: <noBinoculars>False</noBinoculars>
+        <resizeViewport>True</resizeViewport> - Enabled
+        <resizeViewport>False</resizeViewport> - Disabled
+    -->
+    <resizeViewport>True</resizeViewport>
+    
+	<!--
+        Resize viewport of scope shadow in percentage of total video resolution. 
+		1.0 is 100% of visible viewport.
+		0.5 is 50% of visible viewport (default).
+    -->
+    <viewportSize>1.0 1.0</viewportSize>
   </sniperMode>
 </ServerCross.xml>
