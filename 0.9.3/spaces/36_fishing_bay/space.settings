@@ -1,0 +1,119 @@
+<space.settings>
+	<PS_SUN_MULT_CORRECTOR>0.8</PS_SUN_MULT_CORRECTOR>
+	<timeOfDay>system/data/sky36_fishing_bay.xml</timeOfDay>
+	<skyGradientDome>system/data/sky36_fishing_bay.xml</skyGradientDome>
+	<flora>spaces/36_fishing_bay/flora.xml</flora>
+	<bounds>
+		<minX>-6</minX>
+		<maxX>5</maxX>
+		<minY>-6</minY>
+		<maxY>5</maxY>
+	</bounds>
+	<terrain>
+		<version>200</version>
+		<lodMapSize>256</lodMapSize>
+		<aoMapSize>256</aoMapSize>
+		<heightMapSize>64</heightMapSize>
+		<normalMapSize>256</normalMapSize>
+		<holeMapSize>64</holeMapSize>
+		<shadowMapSize>128</shadowMapSize>
+		<blendMapSize>256</blendMapSize>
+		<lodInfo>
+			<startBias>0.800000</startBias>
+			<endBias>0.990000</endBias>
+			<lodTextureStart>1100.000000</lodTextureStart>
+			<lodTextureDistance>1100.000000</lodTextureDistance>
+			<blendPreloadDistance>1000.000000</blendPreloadDistance>
+			<bumpFadingStart>1000.000000</bumpFadingStart>
+			<bumpFadingDistance>800.000000</bumpFadingDistance>
+			<lodNormalStart>800.000000</lodNormalStart>
+			<lodNormalDistance>1000.000000</lodNormalDistance>
+			<normalPreloadDistance>1000.000000</normalPreloadDistance>
+			<defaultHeightMapLod>0</defaultHeightMapLod>
+			<detailHeightMapDistance>1900.000000</detailHeightMapDistance>
+			<lodDistances>
+				<distance0>200.000000</distance0>
+				<distance1>400.000000</distance1>
+				<distance2>600.000000</distance2>
+				<distance3>800.000000</distance3>
+				<distance4>1000.000000</distance4>
+				<distance5>800.000000</distance5>
+			</lodDistances>
+			<server>
+				<heightMapLod>0</heightMapLod>
+			</server>
+		</lodInfo>
+		<detailNormal>
+			<normalMap>maps/landscape/detail/sand_NM.dds</normalMap>
+			<wrapU>10.000000</wrapU>
+			<wrapV>10.000000</wrapV>
+		</detailNormal>
+		<soundOcclusion>
+			<directOcclusion>0.000000</directOcclusion>
+			<reverbOcclusion>0.000000</reverbOcclusion>
+		</soundOcclusion>
+	</terrain>
+	<skyDomePartition>0</skyDomePartition>
+	<windSpeed>3.000000 -2.000000</windSpeed>
+	<windGustiness>3.000000</windGustiness>
+	<floraWindFactor>0.200000</floraWindFactor>
+	<skyWorld>
+		<row0>-0.181721 0.000000 0.983350</row0>
+		<row1>0.000000 1.000000 0.000000</row1>
+		<row2>-0.983350 0.000000 -0.181721</row2>
+		<row3>0.000000 0.000000 0.000000</row3>
+	</skyWorld>
+	<decals>
+		<fadeStart>100.000000</fadeStart>
+		<fadeEnd>150.000000</fadeEnd>
+	</decals>
+	<startPosition>349.681915 3.893404 -69.139442</startPosition>
+	<startDirection>0.000000 0.153599 1.653187</startDirection>
+	<farPlane>
+		<max>2500.000000</max>
+		<high>1000.000000</high>
+		<medium>800.000000</medium>
+		<low>600.000000</low>
+	</farPlane>
+	<navmeshGenerator>navgen</navmeshGenerator>
+	<PBSConversions>
+		<Terrain>
+			<EnabledConversion>true</EnabledConversion>
+			<AlbedoParams>0.050000 0.850000 0.700000 0.200000</AlbedoParams>
+			<GlossParams>0.030000 0.430000 0.510000 1.250000</GlossParams>
+			<MetallicParams>0.020000 0.600000 2.000000 0.520000</MetallicParams>
+		</Terrain>
+		<Flora>
+			<EnabledConversion>true</EnabledConversion>
+			<AlbedoParams>0.050000 0.850000 0.700000 0.050000</AlbedoParams>
+			<GlossParams>0.170000 0.750000 0.500000 1.200000</GlossParams>
+			<MetallicParams>0.020000 0.600000 2.000000 0.630000</MetallicParams>
+		</Flora>
+		<SpeedTree>
+			<EnabledConversion>true</EnabledConversion>
+			<AlbedoParams>0.030000 0.850000 0.700000 0.200000</AlbedoParams>
+			<GlossParams>0.050000 0.750000 0.500000 2.000000</GlossParams>
+			<MetallicParams>0.020000 0.600000 2.000000 1.500000</MetallicParams>
+		</SpeedTree>
+		<Objects>
+			<EnabledConversion>true</EnabledConversion>
+			<AlbedoParams>0.050000 0.950000 0.700000 0.300000</AlbedoParams>
+			<GlossParams>0.050000 0.750000 0.500000 2.000000</GlossParams>
+			<MetallicParams>0.020000 0.600000 2.000000 1.500000</MetallicParams>
+		</Objects>
+		<Decal>
+			<EnabledConversion>true</EnabledConversion>
+			<AlbedoParams>0.050000 0.850000 0.700000 0.100000</AlbedoParams>
+			<GlossParams>0.050000 0.750000 0.500000 2.000000</GlossParams>
+			<MetallicParams>0.020000 0.600000 2.000000 1.500000</MetallicParams>
+		</Decal>
+		<Overlay>
+			<EnabledConversion>false</EnabledConversion>
+			<AlbedoParams>0.050000 0.950000 0.700000 0.300000</AlbedoParams>
+			<GlossParams>0.050000 0.750000 0.500000 2.000000</GlossParams>
+			<MetallicParams>0.020000 0.600000 2.000000 1.500000</MetallicParams>
+		</Overlay>
+		<ObjectsAlbedoConversion>0.900000</ObjectsAlbedoConversion>
+	</PBSConversions>
+	<skyDome>maps/skyboxes/36_fishing_bay_sky/skydome/clouds.visual</skyDome>
+</space.settings>

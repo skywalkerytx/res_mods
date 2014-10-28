@@ -1,0 +1,25 @@
+<enemyoutline>
+    <!-- Вкл.мода по умолчанию, true - да, false - нет -->
+    <enableRenderModel>true</enableRenderModel> 
+    <!-- Только в снайперском режиме, true - да, false - нет -->    
+    <sniperonly>false</sniperonly>         
+    <!-- Нет рентгена ближе дистанции... в метрах -->    
+    <distancevalue>50</distancevalue>               
+    <!-- Нет рентгена далее дистанции... в метрах -->
+    <distancefar>1000</distancefar>
+    <!--
+    Цвета настраиваются по системе RGBA
+    <color>R G B A</color>
+    в дапозоне от 0 до 1
+    цыет - 0 - 0% цвета, 1 - 100% цвета
+    прозрачность - 0 - 0% прозрачно, 1 - 100% непрозрачно 
+    -->
+    <!-- Цвет рентгена    ... рекомендую (0.5 0.2 0.2 0.5), (1 1 0 0.4),(0.8 0.3 0.1 0.6), (0.4 0.8 1 0.3), -->
+    <color>0.4 0.8 1 0.4</color>                     
+    <!-- Цвет противника, ...  -->
+    <enemyhigh>1 0 0 0.9</enemyhigh>                
+    <!-- Цвет союзника,   ...  -->
+    <allyhigh>0 1 0 0.7</allyhigh>
+    <!-- Клавиша вкл./откл. мода -->
+    <togglekey>KEY_NUMPAD1</togglekey>              
+</enemyoutline>
