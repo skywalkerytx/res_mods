@@ -174,30 +174,31 @@
     // XVM值的颜色
     // http://www.koreanrandom.com/forum/topic/2625-/
     "x": [
-      { "value": 17,  "color": ${"def.colorRating.very_bad" } },   // 00   - 16.5 - very bad   (20% of players)
-      { "value": 34,  "color": ${"def.colorRating.bad"      } },   // 16.5 - 33.5 - bad        (better then 20% of players)
-      { "value": 53,  "color": ${"def.colorRating.normal"   } },   // 33.5 - 52.5 - normal     (better then 60% of players)
-      { "value": 76,  "color": ${"def.colorRating.good"     } },   // 52.5 - 75.5 - good       (better then 90% of players)
-      { "value": 93,  "color": ${"def.colorRating.very_good"} },   // 75.5 - 92.5 - very good  (better then 99% of players)
-      { "value": 999, "color": ${"def.colorRating.unique"   } }    // 92.5 - XX   - unique     (better then 99.9% of players)
+      { "value": 16.5, "color": ${"def.colorRating.very_bad" } },   // 00   - 16.5 - very bad   (20% of players)
+      { "value": 33.5, "color": ${"def.colorRating.bad"      } },   // 16.5 - 33.5 - bad        (better then 20% of players)
+      { "value": 52.5, "color": ${"def.colorRating.normal"   } },   // 33.5 - 52.5 - normal     (better then 60% of players)
+      { "value": 75.5, "color": ${"def.colorRating.good"     } },   // 52.5 - 75.5 - good       (better then 90% of players)
+      { "value": 92.5, "color": ${"def.colorRating.very_good"} },   // 75.5 - 92.5 - very good  (better then 99% of players)
+      { "value": 999,  "color": ${"def.colorRating.unique"   } }    // 92.5 - XX   - unique     (better then 99.9% of players)
     ],
     // 效率的颜色
     "eff": [
-      { "value": 630,  "color": ${"def.colorRating.very_bad" } },  //    0 - 629  - very bad
-      { "value": 860,  "color": ${"def.colorRating.bad"      } },  //  630 - 859  - bad
-      { "value": 1140, "color": ${"def.colorRating.normal"   } },  //  860 - 1139 - normal
-      { "value": 1460, "color": ${"def.colorRating.good"     } },  // 1140 - 1459 - good
-      { "value": 1735, "color": ${"def.colorRating.very_good"} },  // 1460 - 1734 - very good
-      { "value": 9999, "color": ${"def.colorRating.unique"   } }   // 1735 - *    - unique
+      { "value": 610,  "color": ${"def.colorRating.very_bad" } },  //    0 - 609  - very bad   (20% of players)
+      { "value": 850,  "color": ${"def.colorRating.bad"      } },  //  610 - 849  - bad        (better then 20% of players)
+      { "value": 1145, "color": ${"def.colorRating.normal"   } },  //  850 - 1144 - normal     (better then 60% of players)
+      { "value": 1475, "color": ${"def.colorRating.good"     } },  // 1145 - 1474 - good       (better then 90% of players)
+      { "value": 1775, "color": ${"def.colorRating.very_good"} },  // 1475 - 1774 - very good  (better then 99% of players)
+      { "value": 9999, "color": ${"def.colorRating.unique"   } }   // 1775 - *    - unique     (better then 99.9% of players)
     ],
-    // WN6的颜色
-    "wn": [
-      { "value": 425,  "color": ${"def.colorRating.very_bad" } },  //    0 - 424  - very bad
-      { "value": 795,  "color": ${"def.colorRating.bad"      } },  //  425 - 794  - bad
-      { "value": 1175, "color": ${"def.colorRating.normal"   } },  //  795 - 1174 - normal
-      { "value": 1570, "color": ${"def.colorRating.good"     } },  // 1175 - 1569 - good
-      { "value": 1885, "color": ${"def.colorRating.very_good"} },  // 1570 - 1884 - very good
-      { "value": 9999, "color": ${"def.colorRating.unique"   } }   // 1885 - *    - unique
+    // Dynamic color by WN6 rating
+    // Динамический цвет по рейтингу WN6
+    "wn6": [
+      { "value": 410,  "color": ${"def.colorRating.very_bad" } },  //    0 - 409  - very bad   (20% of players)
+      { "value": 795,  "color": ${"def.colorRating.bad"      } },  //  410 - 794  - bad        (better then 20% of players)
+      { "value": 1185, "color": ${"def.colorRating.normal"   } },  //  795 - 1184 - normal     (better then 60% of players)
+      { "value": 1585, "color": ${"def.colorRating.good"     } },  // 1185 - 1584 - good       (better then 90% of players)
+      { "value": 1925, "color": ${"def.colorRating.very_good"} },  // 1585 - 1924 - very good  (better then 99% of players)
+      { "value": 9999, "color": ${"def.colorRating.unique"   } }   // 1925 - *    - unique     (better then 99.9% of players)
     ],
     // Dynamic color by WN8 rating
     // Динамический цвет по рейтингу WN8
@@ -325,6 +326,27 @@
       { "value": 1.3,  "color": ${"def.colorRating.good"     } },
       { "value": 2.0,  "color": ${"def.colorRating.very_good"} },
       { "value": 15,   "color": ${"def.colorRating.unique"   } }
-	]
+    ],
+    // Dynamic color by damage rating (percents for marks on gun)
+    // Динамический цвет по рейтингу урона (процент для отметок на стволе)
+    "damageRating": [
+      { "value": 20,    "color": ${"def.colorRating.very_bad" } },  // 20% of players
+      { "value": 60,    "color": ${"def.colorRating.bad"      } },  // better then 20% of players
+      { "value": 90,    "color": ${"def.colorRating.normal"   } },  // better then 60% of players
+      { "value": 99,    "color": ${"def.colorRating.good"     } },  // better then 90% of players
+      { "value": 99.9,  "color": ${"def.colorRating.very_good"} },  // better then 99% of players
+      { "value": 101,   "color": ${"def.colorRating.unique"   } }   // better then 99.9% of players
+    ],
+    // TODO:values
+    // Dynamic color by hit ratio (percents of hits)
+    // Динамический цвет по проценту попаданий
+    "hitsRatio": [
+      { "value": 20,    "color": ${"def.colorRating.very_bad" } },
+      { "value": 60,    "color": ${"def.colorRating.bad"      } },
+      { "value": 90,    "color": ${"def.colorRating.normal"   } },
+      { "value": 99,    "color": ${"def.colorRating.good"     } },
+      { "value": 99.9,  "color": ${"def.colorRating.very_good"} },
+      { "value": 101,   "color": ${"def.colorRating.unique"   } }
+    ]
   }
 }

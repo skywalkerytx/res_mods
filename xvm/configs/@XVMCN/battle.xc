@@ -4,12 +4,12 @@
  */
 {
   "battle": {
-    "mirroredVehicleIcons": false,		// 显示坦克图标镜像效果
+    "mirroredVehicleIcons": ${"battle/mirroredVehicleIcons.xc":"mirroredVehicleIcons"},		// 显示坦克图标镜像效果
     "showPostmortemTips": true,			// 死亡后显示底部面板.
     "highlightVehicleIcon": true,		// 高亮自己和队友的车辆图标.
     // 时钟格式 (在FPS旁边). 格式: Y:年, M:月, D:日, H:小时, N:分钟, S:秒. 使用""时不显示时间.
     // 开启显血
-    "allowHpInPanelsAndMinimap": false,
+    "allowHpInPanelsAndMinimap": ${"battle/showhp.xc":"allowHpInPanelsAndMinimap"},
 	"allowGunMarksInPanelsAndMinimap": false,
     "clockFormat": "H:N",
     "clanIconsFolder": "clanicons/",	// 公会图标路径，基于res_mods/xvm/res.

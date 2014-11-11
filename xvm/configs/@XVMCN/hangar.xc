@@ -52,6 +52,7 @@
     "carousel": ${"carousel.xc":"carousel"},
     // Parameters for hangar clock
     // Параметры часов в ангаре
-    "clock": ${"clock.xc":"clock"}
+    "clock": ${"clock.xc":"clock"},
+    "comments": ${"comments.xc":"comments"}
   }
 }

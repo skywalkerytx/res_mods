@@ -127,6 +127,13 @@
     // VehicleMarkersManager
     "blownUp": "<font face='$IMELanguageBar'>爆炸</font>",
 
+    // Comments
+    "Group": "组",
+    "Add group": "添加组",
+    "Edit group": "编辑组",
+    "Add comment": "添加备注",
+    "Edit comment": "编辑备注",
+	
     // Token
     "token/network_error": "网络错误. XVM 统计不可用",
     "token/bad_token": "token错误.\n{{l10n:token/notify_xvm_site}}",

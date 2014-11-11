@@ -46,38 +46,41 @@
     ],
     // 效率的动态透明度.
     "eff": [
-      { "value": 630,  "alpha": ${"alphaRating.very_bad" } },
-      { "value": 860,  "alpha": ${"alphaRating.bad"      } },
-      { "value": 1140, "alpha": ${"alphaRating.normal"   } },
-      { "value": 1460, "alpha": ${"alphaRating.good"     } },
-      { "value": 1735, "alpha": ${"alphaRating.very_good"} },
+      { "value": 610,  "alpha": ${"alphaRating.very_bad" } },
+      { "value": 850,  "alpha": ${"alphaRating.bad"      } },
+      { "value": 1145, "alpha": ${"alphaRating.normal"   } },
+      { "value": 1475, "alpha": ${"alphaRating.good"     } },
+      { "value": 1775, "alpha": ${"alphaRating.very_good"} },
       { "value": 9999, "alpha": ${"alphaRating.unique"   } }
     ],
     // WN6的动态透明度.
     "wn6": [
-      { "value": 425,  "alpha": ${"alphaRating.very_bad" } },
+      { "value": 410,  "alpha": ${"alphaRating.very_bad" } },
       { "value": 795,  "alpha": ${"alphaRating.bad"      } },
-      { "value": 1175, "alpha": ${"alphaRating.normal"   } },
-      { "value": 1570, "alpha": ${"alphaRating.good"     } },
-      { "value": 1885, "alpha": ${"alphaRating.very_good"} },
+      { "value": 1185, "alpha": ${"alphaRating.normal"   } },
+      { "value": 1585, "alpha": ${"alphaRating.good"     } },
+      { "value": 1925, "alpha": ${"alphaRating.very_good"} },
       { "value": 9999, "alpha": ${"alphaRating.unique"   } }
     ],
     // Dynamic transparency by WN8 rating
     // Динамическая прозрачность по рейтингу WN8
     "wn8": [
       { "value": 315,  "alpha": ${"alphaRating.very_bad" } },
-      { "value": 755,  "alpha": ${"alphaRating.bad"      } },
-      { "value": 1315, "alpha": ${"alphaRating.normal"   } },
-      { "value": 1965, "alpha": ${"alphaRating.good"     } },
-      { "value": 2525, "alpha": ${"alphaRating.very_good"} },
+      { "value": 760,  "alpha": ${"alphaRating.bad"      } },
+      { "value": 1325, "alpha": ${"alphaRating.normal"   } },
+      { "value": 1980, "alpha": ${"alphaRating.good"     } },
+      { "value": 2570, "alpha": ${"alphaRating.very_good"} },
       { "value": 9999, "alpha": ${"alphaRating.unique"   } }
-    ],"wgr": [
-      { "value": 2000,  "alpha": ${"alphaRating.very_bad" } },
-      { "value": 4000,  "alpha": ${"alphaRating.bad"      } },
-      { "value": 5000,  "alpha": ${"alphaRating.normal"   } },
-      { "value": 7000,  "alpha": ${"alphaRating.good"     } },
-      { "value": 9000,  "alpha": ${"alphaRating.very_good"} },
-      { "value": 20000, "alpha": ${"alphaRating.unique"   } }
+    ],
+    // Dynamic transparency by WG rating
+    // Динамическая прозрачность по рейтингу WG
+    "wgr": [
+      { "value": 2020,  "alpha": ${"alphaRating.very_bad" } },
+      { "value": 4185,  "alpha": ${"alphaRating.bad"      } },
+      { "value": 6340,  "alpha": ${"alphaRating.normal"   } },
+      { "value": 8525,  "alpha": ${"alphaRating.good"     } },
+      { "value": 9930,  "alpha": ${"alphaRating.very_good"} },
+      { "value": 99999, "alpha": ${"alphaRating.unique"   } }
     ],
     // 单车效率的动态透明度.
     "e": [
@@ -127,7 +130,9 @@
     "tdb": [
       { "value": 500,  "alpha": ${"alphaRating.very_bad" } },
       { "value": 1000, "alpha": ${"alphaRating.normal"   } },
-      { "value": 2000, "alpha": ${"alphaRating.good"     } }
+      { "value": 1800, "alpha": ${"alphaRating.good"     } },
+      { "value": 2500, "alpha": ${"alphaRating.very_good"} },
+      { "value": 3000, "alpha": ${"alphaRating.unique"   } }
     ],
     // tdv的动态透明度.
     "tdv": [

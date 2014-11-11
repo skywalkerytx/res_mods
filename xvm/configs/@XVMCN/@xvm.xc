@@ -17,9 +17,9 @@
     "author": "adri1",									// 配置文件作者
     "description": "XVMCN",								// 配置文件描述.
     "url": "http://www.modxvm.com/",			// 更新地址.
-    "date": "31.07.2014",								// 修改时间.
-    "gameVersion": "0.9.2",								// 支持游戏版本.
-    "modMinVersion": "5.3.4"						// 插件版本.
+    "date": "28.09.2014",
+    "gameVersion": "0.9.3",
+    "modMinVersion": "5.3.6"
   },
   // 插件语言
   // "auto" - 自动根据客户端判断,

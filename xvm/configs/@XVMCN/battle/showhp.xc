@@ -1,0 +1,3 @@
+{
+	"allowHpInPanelsAndMinimap": false
+}

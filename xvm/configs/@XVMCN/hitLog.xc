@@ -7,15 +7,9 @@
     "visible": true,
     // 按ALT时显示敌人的剩余血量
     // 只在敌人在描绘框中时才能顺利更新
-    "hpLeft": {
-        "enabled": true,
-        // Header - Only localization macros are allowed, see readme-en.txt.
-        "header": "<font face='$IMELanguageBar' color='#FFFFFF'>{{l10n:hpLeftTitle}}</font>",
-        // Row in HP list (macros allowed, see readme-en.txt).
-        "format": "<font face='$IMELanguageBar'><textformat leading='-4' tabstops='[50,90,180]'><font color='{{c:hp-ratio}}'>     {{hp}}</font><tab><font color='#FFFFFF'>/ </font>{{hp-max}}<tab><font color='#FFFFFF'>|</font><font color='{{c:vtype}}'>{{vehicle}}</font><tab><font color='#FFFFFF'>|{{nick}}</font></textformat></font>"
-    },
-    "x": -215,
-    "y": 465,
+    "hpLeft": ${"hitLog/hpleft.xc":"hpLeft"},
+    "x": ${"hitLog/position.xc":"x"},
+    "y": ${"hitLog/position.xc":"y"},
     "w": 400,
     "h": 400,
     "lines": 10,				// 显示条数

@@ -18,11 +18,9 @@
       "h": 16,								// 组队/公会图标的高度
       "alpha": 90							// 组队/公会图标的透明度
     },
-	"formatLeftNick": "{{name%.20s~..}}<font alpha='#A0'>{{clan}}</font>",
-    "formatRightNick": "{{name%.20s~..}}<font alpha='#A0'>{{clan}}</font>",
-    // 左侧的信息显示格式, 宏请看readme
-    "formatLeftVehicle": "<font color='{{c:kb}}'>{{kb%2d~k}}</font>\t| <font color='{{c:rating}}'>{{rating%2d~%}}</font> | <font color='{{c:avglvl}}'>{{t-wins}}</font>\t&nbsp;",
-    // 右侧的信息显示格式, 宏请看readme
-    "formatRightVehicle": "<font color='{{c:kb}}'>{{kb%2d~k}}</font>\t| <font color='{{c:rating}}'>{{rating%2d~%}}</font> | <font color='{{c:avglvl}}'>{{t-wins}}</font>"
+    "formatLeftNick": ${"statisticForm/format.xc":"formatLeftNick"},
+    "formatRightNick": ${"statisticForm/format.xc":"formatRightNick"},
+    "formatLeftVehicle": ${"statisticForm/format.xc":"formatLeftVehicle"},
+    "formatRightVehicle": ${"statisticForm/format.xc":"formatRightVehicle"}
   }
 }

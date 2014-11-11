@@ -127,7 +127,8 @@
     "blownUp": "Blown-up!",
 
     // Check version
-    "ver/currentVersion": "XVM {0} #{1}", // XVM 5.3.4 #4321
+    // XVM 5.3.4 #4321
+    "ver/currentVersion": "XVM {0} #{1}",
     "ver/newVersion": "Update available:<tab/><a href='#XVM_SITE_DL#'><font color='#00FF00'>v{0}</font></a>\n{1}",
     "websock/not_connected": "<font color='#FFFF00'>no connection to XVM server</font>",
 
@@ -142,6 +143,13 @@
     "token/cnt": "Requests count:<tab/><font color='#EEEEEE'>{0}</font>",
     "token/unknown_status": "Unknown status",
     "token/notify_xvm_site": "Please go to the <a href='#XVM_SITE#'>XVM site</a> and activate statistics in the personal cabinet.",
+
+    // Comments
+    "Group": "Group",
+    "Add group": "Add group",
+    "Edit group": "Edit group",
+    "Add comment": "Add comment",
+    "Edit comment": "Edit comment",
 
     //Vehicle status
     "Destroyed": "Destroyed",
