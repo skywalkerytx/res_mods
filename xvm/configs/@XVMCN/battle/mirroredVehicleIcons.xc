@@ -1,3 +1,0 @@
-{
-	"mirroredVehicleIcons": false
-}
