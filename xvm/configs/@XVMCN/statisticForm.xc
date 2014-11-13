@@ -13,7 +13,7 @@
     // 关闭组队图标.
     "removeSquadIcon": false,
     "clanIcon": {
-      "show": true,
+      "show": false,
       "x": 0,
       "y": 6,
       "xr": 0,

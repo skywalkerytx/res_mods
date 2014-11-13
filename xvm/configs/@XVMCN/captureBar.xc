@@ -5,6 +5,8 @@
 {
   "captureBar": {
     "enabled": true,
+    "allyColor": null,
+    "enemyColor": null,
     "primaryTitleOffset": 7,			// 上文本框的偏移.
     "appendPlus" : true,				// 当场过3人时显示加号.
 	// 占领条格式(翻译在l10n中进行了,也可以在这里直接改).

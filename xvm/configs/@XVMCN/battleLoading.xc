@@ -18,6 +18,7 @@
       "h": 16,								// 组队/公会图标的高度
       "alpha": 90							// 组队/公会图标的透明度
     },
+    "darkenNotReadyIcon": true,
     "formatLeftNick": ${"statisticForm/format.xc":"formatLeftNick"},
     "formatRightNick": ${"statisticForm/format.xc":"formatRightNick"},
     "formatLeftVehicle": ${"statisticForm/format.xc":"formatLeftVehicle"},

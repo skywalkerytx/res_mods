@@ -3,8 +3,16 @@
  */
 {
   "locale": {
-
-    "XVM_translator": "adri1",
+    // Common
+    "Warning": "注意",
+    "Error": "错误",
+    "Information": "信息",
+    "OK": "确认",
+    "Cancel": "取消",
+    "Save": "保存",
+    "Remove": "删除",
+    "Yes": "是",
+    "No": "否",
 
     // Ping
     "Initialization": "<font face='$IMELanguageBar'>初始化</font>",
@@ -12,6 +20,7 @@
     // Win chance
     "Chance error": "<font face='$IMELanguageBar'>出错啦~</font>",
     "Chance to win": "<font face='$IMELanguageBar'>胜利几率</font>",
+    "Team strength": "Team strength",
     //"global": "<font face='$IMELanguageBar'>全局</font>",
     //"per-vehicle": "<font face='$IMELanguageBar'>基于车辆</font>",
     "chanceLive": "<font face='$IMELanguageBar'>实时胜率</font>",
@@ -60,6 +69,7 @@
     "WN6": "<font face='$IMELanguageBar'>WN6</font>",
     "WN8": "<font face='$IMELanguageBar'>WN8</font>",
     "EFF": "<font face='$IMELanguageBar'>EFF</font>",
+    "WGR": "WGR",
     "updated": "<font face='$IMELanguageBar'>updated</font>",
     " to ": "<font face='$IMELanguageBar'> 至 </font>",
     "avg": "<font face='$IMELanguageBar'>平均</font>",
@@ -127,26 +137,41 @@
     // VehicleMarkersManager
     "blownUp": "<font face='$IMELanguageBar'>爆炸</font>",
 
-    // Comments
-    "Group": "组",
-    "Add group": "添加组",
-    "Edit group": "编辑组",
-    "Add comment": "添加备注",
-    "Edit comment": "编辑备注",
-	
+    // Check version
+    // XVM 5.3.4 (4321)
+    "ver/currentVersion": "XVM {0} ({1})",
+    "ver/newVersion": "Update available:<tab/><a href='#XVM_SITE_DL#'><font color='#00FF00'>v{0}</font></a>\n{1}",
+    "websock/not_connected": "<font color='#FFFF00'>no connection to XVM server</font>",
+
     // Token
-    "token/network_error": "网络错误. XVM 统计不可用",
-    "token/bad_token": "token错误.\n{{l10n:token/notify_xvm_site}}",
+    "token/services_unavailable": "Network services unavailable.&nbsp;&nbsp;<a href='#XVM_SITE_UNAVAILABLE#'><font size='11'>more info</font></a>",
+    "token/services_inactive": "Network services inactive.&nbsp;&nbsp;<a href='#XVM_SITE_INACTIVE#'><font size='11'>more info</font></a>",
     "token/blocked": "状态: <font color='#FF0000'>被阻拦</font><br>{{l10n:token/notify_xvm_site}}",
-    "token/inactive": "状态: <font color='#FFFF00'>未激活</font><br>{{l10n:token/notify_xvm_site}}",
     "token/active": "状态: <font color='#00FF00'>激活</font>",
     "token/time_left": "剩余天数:<tab/><font color='#eeeeee'>{0}</font>",
     "token/time_left_warn": "剩余小时:<tab/><font color='#ffff00'>{0}</font>",
     "token/cnt": "请求次数:<tab/><font color='#eeeeee'>{0}</font>",
     "token/unknown_status": "未知状态",
-    "token/notify_xvm_site": "请访问 <a href='#XVM_SITE#'>XVM 网页</a>.",
 
+    // Carousel
+    "NonElite": "Non elite",
+    "Premium": "Premium",
+    "Normal": "Normal",
+    "MultiXP": "Multi XP",
+    "NoMaster": "No master",
+
+    // Comments
+    "Error loading comments": "Error loading comments",
+    "Error saving comments": "Error saving comments",
+    "Comments disabled": "Comments disabled",
+    "Edit data": "Edit data",
+    "Nick": "Nick",
+    "Group": "Group",
+    "Comment": "Comment",
+
+    //Vehicle status
     "Destroyed": "Destroyed",
-    "No data": "No data"
+    "No data": "No data",
+    "Not ready": "Not ready"
   }
 }

@@ -7,9 +7,9 @@
     "alpha": 60,
     "iconAlpha": 100,				// 图标透明度
     "removeSquadIcon": false,		// 关闭组队图标
-	"winrate": 1,					// 实时胜率  0-关闭 1-局势 2-胜率
     "removePanelsModeSwitcher": false,
     "startMode": "large",
+    "altMode": null,
     "clanIcon": {					// 公会图标
       "show": true,
       "x": 0,

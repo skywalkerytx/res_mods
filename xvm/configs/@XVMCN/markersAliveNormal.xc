@@ -23,43 +23,14 @@
       }
     },
     // 血条
-    "healthBar": {
-      "visible": true,                  //   false - 不可见
-      "x": -41,                         //   x坐标
-      "y": -34,                         //   y坐标
-      "alpha": 90,                      //   透明度(设为null支持动态)
-      "color": null,                    //   颜色(设为null支持动态)
-      "lcolor": null,                   //   额外颜色
-      "width": 80,                      //   血条宽度
-      "height": 14,                     //   血条厚度
-      "border": {						//   边框设置
-        "alpha": 80,                    //   透明度
-        "color": "0x000000",            //   颜色
-        "size": 1                       //   大小
-      },
-      "fill": {							//	 已扣血条的设置
-        "alpha": 30                     //   透明度
-      },
-      "damage": {						//	 扣血时的设置
-        "alpha": 80,                    //   透明度
-        "color": "{{c:dmg}}",                  //   颜色
-        "fade": 1                       //   消失速度
-      }
-    },
+    "healthBar": ${"markers/hp.xc":"healthBar"},
     // 各种情况的伤害值
     "damageText": ${"markers/damageText.xc":"damageText"},
     "damageTextPlayer": ${"markers/damageText.xc":"damageText"},
     "damageTextSquadman": ${"markers/damageText.xc":"damageText"},
     // Vehicle contour icon.
     // 车辆
-    "contourIcon": {
-      "visible": false,
-      "x": 6,
-      "y": -65,
-      "alpha": 100,
-      "color": null,
-      "amount": 0     					// 颜色强度
-    },
+    "contourIcon": ${"markers/contourIcon.xc":"contourIcon"},
     "clanIcon": {						// 公会图标
       "visible": false,  				// false - disable       
       "x": 0,            				// Position on the X axis
@@ -85,7 +56,7 @@
         "name": "vehicle name",          // 字段描述，无实际影响
         "visible": true,                
         "x": 0,                         
-        "y": -36,                       
+        "y": -33,                       
         "alpha": 100,                   
         "color": null,                  
         "font": {
@@ -98,23 +69,7 @@
         "shadow": { "alpha": 100, "angle": 0, "color": "0x000000", "distance": 0, "size": 2, "strength": 300 },
         "format": "{{vehicle}}{{turret}}"            // 显示内容, 参见doc/readme的marco列表
       },
-      {
-        "name": "HP",		// 血量
-        "visible": true,
-        "x": 0,
-        "y": -20,
-        "alpha": 100,
-        "color": "0xFCFCFC",
-        "font": {
-          "name": "$IMELanguageBar",
-          "size": 11,
-          "align": "center",
-          "bold": true,
-          "italic": false
-        },
-        "shadow": { "alpha": 100, "angle": 0, "color": "0x000000", "distance": 0, "size": 2, "strength": 300 },
-        "format": "{{hp}} / {{hp-max}}"
-      },
+      ${"markers/hp.xc":"hptext"},
       {
         "name": "power",				// 显示战力
         "visible": true,

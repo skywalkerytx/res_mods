@@ -32,7 +32,6 @@
   "battle": ${"battle.xc":"battle"},					// 战斗界面的配置文件.
   "fragCorrelation": ${"battle.xc":"fragCorrelation"},	// 击杀信息的配置文件.
   "expertPanel": ${"battle.xc":"expertPanel"},			// 待确定..
-  "rating": ${"rating.xc":"rating"},					// 用户数据列表的配置文件
   "hotkeys": ${"hotkeys.xc":"hotkeys"},					// XVM热键的配置文件
   "squad": ${"squad.xc":"squad"},						// 组队窗口的配置文件
   "battleLoading": ${"battleLoading.xc":"battleLoading"},// 战斗加载界面的配置文件
