@@ -1,0 +1,28 @@
+<NoScroll.xml> 
+2     <!-- 
+3         Îòêëþ÷åíèå ïåðåõîäà ìåæä?ðåæèìàìè èñïîëüçóÿ scroll(êîëåñèêî ìûøê? 
+4         "True" -  ìîäèôèêàöèÿ âêëþ÷åíà 
+5         "False" - ìîäèôèêàöèÿ îòêëþ÷åí?(ðàâíîñèëüí?îòñóòñòâèþ ìîäèôèêàöè? 
+6         Åñëè äàííûé ôàéë(gui/noscroll.xml) îòñóòñòâóå?- ðàâíîñèëüí?"<noscroll>False</noscroll>" 
+7     --> 
+8     <!-- 
+9         "True" disables mouse scroll to enter Sniper Mode, "False" mouse scroll enabled (default) 
+10     --> 
+11     <noScroll>False</noScroll> 
+12 
+ 
+13     <!-- 
+14         Îïðåäåëåíè?äåôîëòîâîé êðàòíîñò?ïð?àêòèâàöè?ñíàéïåðñêîãî ðåæèìà 
+15         <defZoom>True</defZoom> - ïð?àêòèâèðîâàíè?ñíàéïåðñêîãî ðåæèìà óñòàíàëèâàåò? êðàòíîñò?çóìà 
+16                                   óêàçàííàÿ ïàðàìåòðîì <defZoomVal>X</defZoomVal> 
+17         <defZoom>False</defZoom> - îòêëþ÷àå?ìîäèôèêàöè? 
+18     --> 
+19     <!-- 
+20         "True" min. zoom lvl. used for first step of sniper mode (default), "False" remember last time used zoom lvl. 
+21     --> 
+22     <defZoom>True</defZoom> 
+23     <!-- 
+24         Zoom level for first step of sniper mode, works only if "defZoom" is "False" 
+25     --> 
+26     <defZoomVal>4.0</defZoomVal> 
+27 </NoScroll.xml> 
