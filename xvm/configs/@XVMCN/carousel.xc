@@ -4,22 +4,13 @@
  */
 {
   "carousel": {
-    "enabled": false,
+    "enabled": true,
     "zoom": 1,
-    "rows": 1,
+    "rows": 2,
     "padding": { "horizontal": 10, "vertical": 2 },
-    "alwaysShowFilters": false,
+    "alwaysShowFilters": true,
     "hideBuyTank": false,
     "hideBuySlot": false,
-    "filters": {
-      // false - hide filter.
-      // false - скрыть фильтр.
-      "nation":   { "enabled": true },  // nation           / страна
-      "type":     { "enabled": true },  // vehicle class    / тип техники
-      "level":    { "enabled": true },  // vehicle level    / уровень техники
-      "favorite": { "enabled": true },  // favorite tanks   / основные танки
-      "prefs":    { "enabled": true }   // other filters    / другие фильтры
-    },
     "fields": {
       "tankType": { "visible": true, "dx": 0, "dy": 0, "alpha": 100, "scale": 1 },
       "level":    { "visible": true, "dx": 0, "dy": 0, "alpha": 100, "scale": 1 },
