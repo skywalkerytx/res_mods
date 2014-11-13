@@ -16,14 +16,35 @@
       </pixie>
       <sound>
         <startKey>start</startKey>
-        <soundPC>/guns/pc/guns/automatic_gun_12-23mm/automatic_gun_12-23mm</soundPC>
-        <soundNPC>/guns/npc/guns/automatic_gun_12-23mm/automatic_gun_12-23mm</soundNPC>
+        <soundPC>/guns/pc/guns/wpn_12-25mm_set/shotExt_distant</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_12-25mm_set/shotExt_distant</soundNPC>
         <modelPart>gun</modelPart>
         <position>HP_gunFire</position>
       </sound>
       <sound>
         <startKey>start</startKey>
-        <soundPC>/guns/pc/guns/automatic_gun_12-23mm/automatic_gun_12-23mm_inside</soundPC>
+        <soundPC>/guns/pc/guns/wpn_12-25mm_set/shotExt_impulse</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_12-25mm_set/shotExt_impulse</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_12-25mm_set/shotExt_reflectTail</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_12-25mm_set/shotExt_reflectTail</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_12-25mm_set/shotExt_underride</soundPC>
+        <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
+        <modelPart>	hull	</modelPart>
+        <position>HP_turretJoint</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_12-25mm_set/shotInt_shotShell_v1</soundPC>
         <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
         <modelPart>	hull	</modelPart>
         <position>HP_turretJoint</position>
@@ -47,14 +68,35 @@
       </pixie>
       <sound>
         <startKey>start</startKey>
-        <soundPC>/guns/pc/guns/automatic_gun_12-23mm/automatic_gun_12-23mm</soundPC>
-        <soundNPC>/guns/npc/guns/automatic_gun_12-23mm/automatic_gun_12-23mm</soundNPC>
+        <soundPC>/guns/pc/guns/wpn_12-25mm_set/shotExt_distant</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_12-25mm_set/shotExt_distant</soundNPC>
         <modelPart>gun</modelPart>
         <position>HP_gunFire</position>
       </sound>
       <sound>
         <startKey>start</startKey>
-        <soundPC>/guns/pc/guns/automatic_gun_12-23mm/automatic_gun_12-23mm_inside</soundPC>
+        <soundPC>/guns/pc/guns/wpn_12-25mm_set/shotExt_impulse</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_12-25mm_set/shotExt_impulse</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_12-25mm_set/shotExt_reflectTail</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_12-25mm_set/shotExt_reflectTail</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_12-25mm_set/shotExt_underride</soundPC>
+        <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
+        <modelPart>	hull	</modelPart>
+        <position>HP_turretJoint</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_12-25mm_set/shotInt_shotShell_v1</soundPC>
         <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
         <modelPart>	hull	</modelPart>
         <position>HP_turretJoint</position>
@@ -540,14 +582,35 @@
       </light>
       <sound>
         <startKey>start</startKey>
-        <soundPC>/guns/pc/guns/automatic_gun_12-23mm/automatic_gun_12-23mm</soundPC>
-        <soundNPC>/guns/npc/guns/automatic_gun_12-23mm/automatic_gun_12-23mm</soundNPC>
+        <soundPC>/guns/pc/guns/wpn_12-25mm_set/shotExt_distant</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_12-25mm_set/shotExt_distant</soundNPC>
         <modelPart>gun</modelPart>
         <position>HP_gunFire</position>
       </sound>
       <sound>
         <startKey>start</startKey>
-        <soundPC>/guns/pc/guns/automatic_gun_12-23mm/automatic_gun_12-23mm_inside</soundPC>
+        <soundPC>/guns/pc/guns/wpn_12-25mm_set/shotExt_impulse</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_12-25mm_set/shotExt_impulse</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_12-25mm_set/shotExt_reflectTail</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_12-25mm_set/shotExt_reflectTail</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_12-25mm_set/shotExt_underride</soundPC>
+        <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
+        <modelPart>	hull	</modelPart>
+        <position>HP_turretJoint</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_12-25mm_set/shotInt_shotShell_v2</soundPC>
         <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
         <modelPart>	hull	</modelPart>
         <position>HP_turretJoint</position>
@@ -571,14 +634,35 @@
       </pixie>
       <sound>
         <startKey>start</startKey>
-        <soundPC>/guns/pc/guns/automatic_gun_12-23mm/automatic_gun_12-23mm</soundPC>
-        <soundNPC>/guns/npc/guns/automatic_gun_12-23mm/automatic_gun_12-23mm</soundNPC>
+        <soundPC>/guns/pc/guns/wpn_12-25mm_set/shotExt_distant</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_12-25mm_set/shotExt_distant</soundNPC>
         <modelPart>gun</modelPart>
         <position>HP_gunFire</position>
       </sound>
       <sound>
         <startKey>start</startKey>
-        <soundPC>/guns/pc/guns/automatic_gun_12-23mm/automatic_gun_12-23mm_inside</soundPC>
+        <soundPC>/guns/pc/guns/wpn_12-25mm_set/shotExt_impulse</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_12-25mm_set/shotExt_impulse</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_12-25mm_set/shotExt_reflectTail</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_12-25mm_set/shotExt_reflectTail</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_12-25mm_set/shotExt_underride</soundPC>
+        <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
+        <modelPart>	hull	</modelPart>
+        <position>HP_turretJoint</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_12-25mm_set/shotInt_shotShell_v2</soundPC>
         <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
         <modelPart>	hull	</modelPart>
         <position>HP_turretJoint</position>
@@ -602,14 +686,35 @@
       </pixie>
       <sound>
         <startKey>start</startKey>
-        <soundPC>/guns/pc/guns/automatic_gun_12-23mm/automatic_gun_12-23mm</soundPC>
-        <soundNPC>/guns/npc/guns/automatic_gun_12-23mm/automatic_gun_12-23mm</soundNPC>
+        <soundPC>/guns/pc/guns/wpn_12-25mm_set/shotExt_distant</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_12-25mm_set/shotExt_distant</soundNPC>
         <modelPart>gun</modelPart>
         <position>HP_gunFire</position>
       </sound>
       <sound>
         <startKey>start</startKey>
-        <soundPC>/guns/pc/guns/automatic_gun_12-23mm/automatic_gun_12-23mm_inside</soundPC>
+        <soundPC>/guns/pc/guns/wpn_12-25mm_set/shotExt_impulse</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_12-25mm_set/shotExt_impulse</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_12-25mm_set/shotExt_reflectTail</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_12-25mm_set/shotExt_reflectTail</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_12-25mm_set/shotExt_underride</soundPC>
+        <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
+        <modelPart>	hull	</modelPart>
+        <position>HP_turretJoint</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_12-25mm_set/shotInt_shotShell_v1</soundPC>
         <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
         <modelPart>	hull	</modelPart>
         <position>HP_turretJoint</position>
@@ -1285,14 +1390,35 @@
       </light>
       <sound>
         <startKey>start</startKey>
-        <soundPC>/guns/pc/guns/small_gun_20-45mm/small_gun_20-45mm</soundPC>
-        <soundNPC>/guns/npc/guns/small_gun_20-45mm/small_gun_20-45mm</soundNPC>
+        <soundPC>/guns/pc/guns/wpn_20-45mm_set/shotExt_distant</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_20-45mm_set/shotExt_distant</soundNPC>
         <modelPart>gun</modelPart>
         <position>HP_gunFire</position>
       </sound>
       <sound>
         <startKey>start</startKey>
-        <soundPC>/guns/pc/guns/small_gun_20-45mm/small_gun_20-45mm_inside</soundPC>
+        <soundPC>/guns/pc/guns/wpn_20-45mm_set/shotExt_impulse</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_20-45mm_set/shotExt_impulse</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_20-45mm_set/shotExt_reflectTail</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_20-45mm_set/shotExt_reflectTail</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_20-45mm_set/shotExt_underride</soundPC>
+        <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
+        <modelPart>	hull	</modelPart>
+        <position>HP_turretJoint</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_20-45mm_set/shotInt_shotShell_v1</soundPC>
         <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
         <modelPart>	hull	</modelPart>
         <position>HP_turretJoint</position>
@@ -1344,14 +1470,35 @@
       </light>
       <sound>
         <startKey>start</startKey>
-        <soundPC>/guns/pc/guns/small_gun_20-45mm/small_gun_20-45mm</soundPC>
-        <soundNPC>/guns/npc/guns/small_gun_20-45mm/small_gun_20-45mm</soundNPC>
+        <soundPC>/guns/pc/guns/wpn_20-45mm_set/shotExt_distant</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_20-45mm_set/shotExt_distant</soundNPC>
         <modelPart>gun</modelPart>
         <position>HP_gunFire</position>
       </sound>
       <sound>
         <startKey>start</startKey>
-        <soundPC>/guns/pc/guns/small_gun_20-45mm/small_gun_20-45mm_inside</soundPC>
+        <soundPC>/guns/pc/guns/wpn_20-45mm_set/shotExt_impulse</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_20-45mm_set/shotExt_impulse</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_20-45mm_set/shotExt_reflectTail</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_20-45mm_set/shotExt_reflectTail</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_20-45mm_set/shotExt_underride</soundPC>
+        <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
+        <modelPart>	hull	</modelPart>
+        <position>HP_turretJoint</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_20-45mm_set/shotInt_shotShell_v1</soundPC>
         <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
         <modelPart>	hull	</modelPart>
         <position>HP_turretJoint</position>
@@ -1403,14 +1550,35 @@
       </light>
       <sound>
         <startKey>start</startKey>
-        <soundPC>/guns/pc/guns/medium_gun_50-75mm/medium_gun_50-75mm</soundPC>
-        <soundNPC>/guns/npc/guns/medium_gun_50-75mm/medium_gun_50-75mm</soundNPC>
+        <soundPC>/guns/pc/guns/wpn_50-75mm_set/shotExt_distant</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_50-75mm_set/shotExt_distant</soundNPC>
         <modelPart>gun</modelPart>
         <position>HP_gunFire</position>
       </sound>
       <sound>
         <startKey>start</startKey>
-        <soundPC>/guns/pc/guns/medium_gun_50-75mm/medium_gun_50-75mm_inside</soundPC>
+        <soundPC>/guns/pc/guns/wpn_50-75mm_set/shotExt_impulse</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_50-75mm_set/shotExt_impulse</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_50-75mm_set/shotExt_reflectTail</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_50-75mm_set/shotExt_reflectTail</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_50-75mm_set/shotExt_underride</soundPC>
+        <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
+        <modelPart>	hull	</modelPart>
+        <position>HP_turretJoint</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_50-75mm_set/shotInt_shotShell_v1</soundPC>
         <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
         <modelPart>	hull	</modelPart>
         <position>HP_turretJoint</position>
@@ -1462,14 +1630,35 @@
       </light>
       <sound>
         <startKey>start</startKey>
-        <soundPC>/guns/pc/guns/medium_gun_50-75mm/medium_gun_50-75mm</soundPC>
-        <soundNPC>/guns/npc/guns/medium_gun_50-75mm/medium_gun_50-75mm</soundNPC>
+        <soundPC>/guns/pc/guns/wpn_50-75mm_set/shotExt_distant</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_50-75mm_set/shotExt_distant</soundNPC>
         <modelPart>gun</modelPart>
         <position>HP_gunFire</position>
       </sound>
       <sound>
         <startKey>start</startKey>
-        <soundPC>/guns/pc/guns/medium_gun_50-75mm/medium_gun_50-75mm_inside</soundPC>
+        <soundPC>/guns/pc/guns/wpn_50-75mm_set/shotExt_impulse</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_50-75mm_set/shotExt_impulse</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_50-75mm_set/shotExt_reflectTail</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_50-75mm_set/shotExt_reflectTail</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_50-75mm_set/shotExt_underride</soundPC>
+        <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
+        <modelPart>	hull	</modelPart>
+        <position>HP_turretJoint</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_50-75mm_set/shotInt_shotShell_v1</soundPC>
         <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
         <modelPart>	hull	</modelPart>
         <position>HP_turretJoint</position>
@@ -1565,14 +1754,35 @@
       </light>
       <sound>
         <startKey>start</startKey>
-        <soundPC>/guns/pc/guns/medium_gun_50-75mm/medium_gun_50-75mm_mb</soundPC>
-        <soundNPC>/guns/npc/guns/medium_gun_50-75mm/medium_gun_50-75mm_mb</soundNPC>
+        <soundPC>/guns/pc/guns/wpn_50-75mm_set/shotExt_distant</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_50-75mm_set/shotExt_distant</soundNPC>
         <modelPart>gun</modelPart>
         <position>HP_gunFire</position>
       </sound>
       <sound>
         <startKey>start</startKey>
-        <soundPC>/guns/pc/guns/medium_gun_50-75mm/medium_gun_50-75mm_inside</soundPC>
+        <soundPC>/guns/pc/guns/wpn_50-75mm_set/shotExt_impulse</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_50-75mm_set/shotExt_impulse</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_50-75mm_set/shotExt_reflectTail</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_50-75mm_set/shotExt_reflectTail</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_50-75mm_set/shotExt_underride</soundPC>
+        <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
+        <modelPart>	hull	</modelPart>
+        <position>HP_turretJoint</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_50-75mm_set/shotInt_shotShell_v1</soundPC>
         <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
         <modelPart>	hull	</modelPart>
         <position>HP_turretJoint</position>
@@ -3728,14 +3938,35 @@
       </light>
       <sound>
         <startKey>start</startKey>
-        <soundPC>/guns/pc/guns/main_gun_85-107mm/main_gun_85-107mm</soundPC>
-        <soundNPC>/guns/npc/guns/main_gun_85-107mm/main_gun_85-107mm</soundNPC>
+        <soundPC>/guns/pc/guns/wpn_85-107mm_set/shotExt_distant</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_85-107mm_set/shotExt_distant</soundNPC>
         <modelPart>gun</modelPart>
         <position>HP_gunFire</position>
       </sound>
       <sound>
         <startKey>start</startKey>
-        <soundPC>/guns/pc/guns/main_gun_85-107mm/main_gun_85-107mm_inside</soundPC>
+        <soundPC>/guns/pc/guns/wpn_85-107mm_set/shotExt_impulse</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_85-107mm_set/shotExt_impulse</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_85-107mm_set/shotExt_reflectTail</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_85-107mm_set/shotExt_reflectTail</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_85-107mm_set/shotExt_underride</soundPC>
+        <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
+        <modelPart>	hull	</modelPart>
+        <position>HP_turretJoint</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_85-107mm_set/shotInt_shotShell_v1</soundPC>
         <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
         <modelPart>	hull	</modelPart>
         <position>HP_turretJoint</position>
@@ -3831,14 +4062,35 @@
       </light>
       <sound>
         <startKey>start</startKey>
-        <soundPC>/guns/pc/guns/main_gun_85-107mm/main_gun_85-107mm_mb</soundPC>
-        <soundNPC>/guns/npc/guns/main_gun_85-107mm/main_gun_85-107mm_mb</soundNPC>
+        <soundPC>/guns/pc/guns/wpn_85-107mm_set/shotExt_distant</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_85-107mm_set/shotExt_distant</soundNPC>
         <modelPart>gun</modelPart>
         <position>HP_gunFire</position>
       </sound>
       <sound>
         <startKey>start</startKey>
-        <soundPC>/guns/pc/guns/main_gun_85-107mm/main_gun_85-107mm_inside</soundPC>
+        <soundPC>/guns/pc/guns/wpn_85-107mm_set/shotExt_impulse</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_85-107mm_set/shotExt_impulse</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_85-107mm_set/shotExt_reflectTail</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_85-107mm_set/shotExt_reflectTail</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_85-107mm_set/shotExt_underride</soundPC>
+        <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
+        <modelPart>	hull	</modelPart>
+        <position>HP_turretJoint</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_85-107mm_set/shotInt_shotShell_v2</soundPC>
         <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
         <modelPart>	hull	</modelPart>
         <position>HP_turretJoint</position>
@@ -6921,14 +7173,35 @@
       </light>
       <sound>
         <startKey>start</startKey>
-        <soundPC>/guns/pc/guns/large_gun_115-152mm/large_gun_115-152mm</soundPC>
-        <soundNPC>/guns/npc/guns/large_gun_115-152mm/large_gun_115-152mm</soundNPC>
+        <soundPC>/guns/pc/guns/wpn_115-152mm_set/shotExt_distant</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_115-152mm_set/shotExt_distant</soundNPC>
         <modelPart>gun</modelPart>
         <position>HP_gunFire</position>
       </sound>
       <sound>
         <startKey>start</startKey>
-        <soundPC>/guns/pc/guns/large_gun_115-152mm/large_gun_115-152mm_inside</soundPC>
+        <soundPC>/guns/pc/guns/wpn_115-152mm_set/shotExt_impulse</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_115-152mm_set/shotExt_impulse</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_115-152mm_set/shotExt_reflectTail</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_115-152mm_set/shotExt_reflectTail</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_115-152mm_set/shotExt_underride</soundPC>
+        <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
+        <modelPart>	hull	</modelPart>
+        <position>HP_turretJoint</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_115-152mm_set/shotInt_shotShell_v1</soundPC>
         <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
         <modelPart>	hull	</modelPart>
         <position>HP_turretJoint</position>
@@ -7024,14 +7297,35 @@
       </light>
       <sound>
         <startKey>start</startKey>
-        <soundPC>/guns/pc/guns/large_gun_115-152mm/large_gun_115-152mm_mb</soundPC>
-        <soundNPC>/guns/npc/guns/large_gun_115-152mm/large_gun_115-152mm_mb</soundNPC>
+        <soundPC>/guns/pc/guns/wpn_115-152mm_set/shotExt_distant</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_115-152mm_set/shotExt_distant</soundNPC>
         <modelPart>gun</modelPart>
         <position>HP_gunFire</position>
       </sound>
       <sound>
         <startKey>start</startKey>
-        <soundPC>/guns/pc/guns/large_gun_115-152mm/large_gun_115-152mm_inside</soundPC>
+        <soundPC>/guns/pc/guns/wpn_115-152mm_set/shotExt_impulse</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_115-152mm_set/shotExt_impulse</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_115-152mm_set/shotExt_reflectTail</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_115-152mm_set/shotExt_reflectTail</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_115-152mm_set/shotExt_underride</soundPC>
+        <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
+        <modelPart>	hull	</modelPart>
+        <position>HP_turretJoint</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_115-152mm_set/shotInt_shotShell_v2</soundPC>
         <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
         <modelPart>	hull	</modelPart>
         <position>HP_turretJoint</position>
@@ -9393,14 +9687,35 @@
       </light>
       <sound>
         <startKey>start</startKey>
-        <soundPC>/guns/pc/guns/huge_gun_152mm/huge_gun_152mm</soundPC>
-        <soundNPC>/guns/npc/guns/huge_gun_152mm/huge_gun_152mm</soundNPC>
+        <soundPC>/guns/pc/guns/wpn_155-170mm_set/shotExt_distant</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_155-170mm_set/shotExt_distant</soundNPC>
         <modelPart>gun</modelPart>
         <position>HP_gunFire</position>
       </sound>
       <sound>
         <startKey>start</startKey>
-        <soundPC>/guns/pc/guns/huge_gun_152mm/huge_gun_152mm_inside</soundPC>
+        <soundPC>/guns/pc/guns/wpn_155-170mm_set/shotExt_impulse</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_155-170mm_set/shotExt_impulse</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_155-170mm_set/shotExt_reflectTail</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_155-170mm_set/shotExt_reflectTail</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_155-170mm_set/shotExt_underride</soundPC>
+        <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
+        <modelPart>	hull	</modelPart>
+        <position>HP_turretJoint</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_155-170mm_set/shotInt_shotShell_v1</soundPC>
         <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
         <modelPart>	hull	</modelPart>
         <position>HP_turretJoint</position>
@@ -9496,14 +9811,35 @@
       </light>
       <sound>
         <startKey>start</startKey>
-        <soundPC>/guns/pc/guns/huge_gun_152mm/huge_gun_152mm_mb</soundPC>
-        <soundNPC>/guns/npc/guns/huge_gun_152mm/huge_gun_152mm_mb</soundNPC>
+        <soundPC>/guns/pc/guns/wpn_155-170mm_set/shotExt_distant</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_155-170mm_set/shotExt_distant</soundNPC>
         <modelPart>gun</modelPart>
         <position>HP_gunFire</position>
       </sound>
       <sound>
         <startKey>start</startKey>
-        <soundPC>/guns/pc/guns/huge_gun_152mm/huge_gun_152mm_inside</soundPC>
+        <soundPC>/guns/pc/guns/wpn_155-170mm_set/shotExt_impulse</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_155-170mm_set/shotExt_impulse</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_155-170mm_set/shotExt_reflectTail</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_155-170mm_set/shotExt_reflectTail</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_155-170mm_set/shotExt_underride</soundPC>
+        <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
+        <modelPart>	hull	</modelPart>
+        <position>HP_turretJoint</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_155-170mm_set/shotInt_shotShell_v1</soundPC>
         <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
         <modelPart>	hull	</modelPart>
         <position>HP_turretJoint</position>
@@ -9554,6 +9890,130 @@
       </groundWave>
     </relatedEffects>
   </shot_huge_mb>
+  <shot_huge2>
+    <timeline>
+      <lighting2>0.1</lighting2>
+      <end>0.4</end>
+      <endpixie>	2	</endpixie>
+      <soundplaystop>	6	</soundplaystop>
+    </timeline>
+    <effects>
+      <pixie>
+        <startKey>start</startKey>
+        <endKey>	endpixie	</endKey>
+        <file>particles/Tank/shots/shot_huge_01.xml</file>
+        <force>	1	</force>
+        <position>HP_gunFire</position>
+      </pixie>
+      <light>
+        <startKey>start</startKey>
+        <endKey>lighting2</endKey>
+        <innerRadius>	3	</innerRadius>
+        <outerRadius>	15	</outerRadius>
+        <castShadows>	false	</castShadows>
+        <position>HP_gunFire</position>
+        <animation>
+          <time>0.0</time>
+          <color>255 150 0</color>
+          <multiplier>	35	</multiplier>
+        </animation>
+        <animation>
+          <time>0.25</time>
+          <color>255 200 100</color>
+          <multiplier>	55	</multiplier>
+        </animation>
+        <animation>
+          <time>0.75</time>
+          <color>170 65 25</color>
+          <multiplier>	30	</multiplier>
+        </animation>
+        <animation>
+          <time>1.0</time>
+          <color>0 0 0 0</color>
+          <multiplier>	15	</multiplier>
+        </animation>
+      </light>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_175-380mm_set/shotExt_distant</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_175-380mm_set/shotExt_distant</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_175-380mm_set/shotExt_impulse</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_175-380mm_set/shotExt_impulse</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_175-380mm_set/shotExt_reflectTail</soundPC>
+        <soundNPC>/guns/npc/guns/wpn_175-380mm_set/shotExt_reflectTail</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_175-380mm_set/shotExt_underride</soundPC>
+        <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
+        <modelPart>	hull	</modelPart>
+        <position>HP_turretJoint</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/pc/guns/wpn_175-380mm_set/shotInt_shotShell_v1</soundPC>
+        <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
+        <modelPart>	hull	</modelPart>
+        <position>HP_turretJoint</position>
+      </sound>
+    </effects>
+    <relatedEffects>
+      <groundWave>
+        <timeline>
+          <shooting>	1	</shooting>
+        </timeline>
+        <effects>
+          <pixie>
+            <startKey>start</startKey>
+            <surfaceMatKind>default</surfaceMatKind>
+            <file>particles/Tank/shots/groundwave_large_ground.xml</file>
+            <force>	1	</force>
+            <position>Scene Root</position>
+          </pixie>
+          <pixie>
+            <startKey>start</startKey>
+            <surfaceMatKind>ground</surfaceMatKind>
+            <file>particles/Tank/shots/groundwave_large_ground.xml</file>
+            <force>	1	</force>
+            <position>Scene Root</position>
+          </pixie>
+          <pixie>
+            <startKey>start</startKey>
+            <surfaceMatKind>stone</surfaceMatKind>
+            <file>particles/Tank/shots/groundwave_large_stone.xml</file>
+            <force>	1	</force>
+            <position>Scene Root</position>
+          </pixie>
+          <pixie>
+            <startKey>start</startKey>
+            <surfaceMatKind>	sand	</surfaceMatKind>
+            <file>particles/Tank/shots/groundwave_large_sand.xml</file>
+            <force>	1	</force>
+            <position>Scene Root</position>
+          </pixie>
+          <pixie>
+            <startKey>start</startKey>
+            <surfaceMatKind>	snow	</surfaceMatKind>
+            <file>particles/Tank/shots/groundwave_large_snow.xml</file>
+            <force>	1	</force>
+            <position>Scene Root</position>
+          </pixie>
+        </effects>
+      </groundWave>
+    </relatedEffects>
+  </shot_huge2>
   <shot_152mm>
     <timeline>
       <lighting2>0.1</lighting2>
@@ -9657,6 +10117,109 @@
       </groundWave>
     </relatedEffects>
   </shot_152mm>
+  <shot_152mm_m81>
+    <timeline>
+      <lighting2>0.1</lighting2>
+      <end>0.4</end>
+      <endpixie>	2	</endpixie>
+      <soundplaystop>	35	</soundplaystop>
+    </timeline>
+    <effects>
+      <pixie>
+        <startKey>start</startKey>
+        <endKey>	endpixie	</endKey>
+        <file>particles/Tank/shots/shot_huge_01.xml</file>
+        <force>	1	</force>
+        <position>HP_gunFire</position>
+      </pixie>
+      <light>
+        <startKey>start</startKey>
+        <endKey>lighting2</endKey>
+        <innerRadius>	3	</innerRadius>
+        <outerRadius>	15	</outerRadius>
+        <castShadows>	false	</castShadows>
+        <position>HP_gunFire</position>
+        <animation>
+          <time>0.0</time>
+          <color>255 150 0</color>
+          <multiplier>	35	</multiplier>
+        </animation>
+        <animation>
+          <time>0.25</time>
+          <color>255 200 100</color>
+          <multiplier>	55	</multiplier>
+        </animation>
+        <animation>
+          <time>0.75</time>
+          <color>170 65 25</color>
+          <multiplier>	30	</multiplier>
+        </animation>
+        <animation>
+          <time>1.0</time>
+          <color>0 0 0 0</color>
+          <multiplier>	15	</multiplier>
+        </animation>
+      </light>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/guns/npc/guns/guns_empty_event</soundPC>
+        <soundNPC>/weapons_extra_2/large_fire/152mm_m81</soundNPC>
+        <modelPart>gun</modelPart>
+        <position>HP_gunFire</position>
+      </sound>
+      <sound>
+        <startKey>start</startKey>
+        <soundPC>/weapons_extra_2/large_fire/152mm_m81</soundPC>
+        <soundNPC>/guns/npc/guns/guns_empty_event</soundNPC>
+        <modelPart>	hull	</modelPart>
+        <position>HP_turretJoint</position>
+      </sound>
+    </effects>
+    <relatedEffects>
+      <groundWave>
+        <timeline>
+          <shooting>	1	</shooting>
+        </timeline>
+        <effects>
+          <pixie>
+            <startKey>start</startKey>
+            <surfaceMatKind>default</surfaceMatKind>
+            <file>particles/Tank/shots/groundwave_large_ground.xml</file>
+            <force>	1	</force>
+            <position>Scene Root</position>
+          </pixie>
+          <pixie>
+            <startKey>start</startKey>
+            <surfaceMatKind>ground</surfaceMatKind>
+            <file>particles/Tank/shots/groundwave_large_ground.xml</file>
+            <force>	1	</force>
+            <position>Scene Root</position>
+          </pixie>
+          <pixie>
+            <startKey>start</startKey>
+            <surfaceMatKind>stone</surfaceMatKind>
+            <file>particles/Tank/shots/groundwave_large_stone.xml</file>
+            <force>	1	</force>
+            <position>Scene Root</position>
+          </pixie>
+          <pixie>
+            <startKey>start</startKey>
+            <surfaceMatKind>	sand	</surfaceMatKind>
+            <file>particles/Tank/shots/groundwave_large_sand.xml</file>
+            <force>	1	</force>
+            <position>Scene Root</position>
+          </pixie>
+          <pixie>
+            <startKey>start</startKey>
+            <surfaceMatKind>	snow	</surfaceMatKind>
+            <file>particles/Tank/shots/groundwave_large_snow.xml</file>
+            <force>	1	</force>
+            <position>Scene Root</position>
+          </pixie>
+        </effects>
+      </groundWave>
+    </relatedEffects>
+  </shot_152mm_m81>
   <shot_152mm_bl10>
     <timeline>
       <lighting2>0.1</lighting2>

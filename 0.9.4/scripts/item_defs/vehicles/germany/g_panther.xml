@@ -17,11 +17,9 @@
   <repairCost>9.96</repairCost>
   <crewXpFactor>1.0</crewXpFactor>
   <effects>
-    <destruction>	largeDestruction	</destruction>
-    <explosion>largeExplosion</explosion>
-    <flaming>	largeFlaming	</flaming>
     <collision>
     </collision>
+    <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <camouflage>
     <priceFactor>1.4</priceFactor>
@@ -100,6 +98,8 @@
         <hideIfDamaged>	true	</hideIfDamaged>
       </inscription>
     </emblemSlots>
+    <AODecals>
+    </AODecals>
   </hull>
   <chassis>
     <Chassis_G_Panther_1>
@@ -135,18 +135,21 @@
           <isLeading>	true	</isLeading>
           <name>WD_R0</name>
           <radius>	0.395406	</radius>
+          <syncAngle>	60	</syncAngle>
         </wheel>
         <wheel>
           <isLeft>	false	</isLeft>
           <isLeading>	true	</isLeading>
           <name>WD_R1</name>
           <radius>	0.124035	</radius>
+          <syncAngle>	60	</syncAngle>
         </wheel>
         <wheel>
           <isLeft>	false	</isLeft>
           <isLeading>	true	</isLeading>
           <name>WD_R2</name>
           <radius>	0.334639	</radius>
+          <syncAngle>	60	</syncAngle>
         </wheel>
         <group>
           <isLeft>	false	</isLeft>
@@ -160,18 +163,21 @@
           <isLeading>	true	</isLeading>
           <name>WD_L0</name>
           <radius>	0.395406	</radius>
+          <syncAngle>	60	</syncAngle>
         </wheel>
         <wheel>
           <isLeft>	true	</isLeft>
           <isLeading>	true	</isLeading>
           <name>WD_L1</name>
           <radius>	0.124035	</radius>
+          <syncAngle>	60	</syncAngle>
         </wheel>
         <wheel>
           <isLeft>	true	</isLeft>
           <isLeading>	true	</isLeading>
           <name>WD_L2</name>
           <radius>	0.334639	</radius>
+          <syncAngle>	60	</syncAngle>
         </wheel>
         <group>
           <isLeft>	true	</isLeft>
@@ -214,6 +220,9 @@
       <maxHealth>	120	</maxHealth>
       <maxRegenHealth>	90	</maxRegenHealth>
       <repairCost>5.0</repairCost>
+      <AODecals>
+      </AODecals>
+      <trackThickness>	0.000000	</trackThickness>
     </Chassis_G_Panther_1>
     <Chassis_G_Panther_2>
       <userString>#germany_vehicles:Chassis_G_Panther_2</userString>
@@ -245,18 +254,21 @@
           <isLeading>	true	</isLeading>
           <name>WD_R0</name>
           <radius>	0.395406	</radius>
+          <syncAngle>	60	</syncAngle>
         </wheel>
         <wheel>
           <isLeft>	false	</isLeft>
           <isLeading>	true	</isLeading>
           <name>WD_R1</name>
           <radius>	0.124035	</radius>
+          <syncAngle>	60	</syncAngle>
         </wheel>
         <wheel>
           <isLeft>	false	</isLeft>
           <isLeading>	true	</isLeading>
           <name>WD_R2</name>
           <radius>	0.334639	</radius>
+          <syncAngle>	60	</syncAngle>
         </wheel>
         <group>
           <isLeft>	false	</isLeft>
@@ -270,18 +282,21 @@
           <isLeading>	true	</isLeading>
           <name>WD_L0</name>
           <radius>	0.395406	</radius>
+          <syncAngle>	60	</syncAngle>
         </wheel>
         <wheel>
           <isLeft>	true	</isLeft>
           <isLeading>	true	</isLeading>
           <name>WD_L1</name>
           <radius>	0.124035	</radius>
+          <syncAngle>	60	</syncAngle>
         </wheel>
         <wheel>
           <isLeft>	true	</isLeft>
           <isLeading>	true	</isLeading>
           <name>WD_L2</name>
           <radius>	0.334639	</radius>
+          <syncAngle>	60	</syncAngle>
         </wheel>
         <group>
           <isLeft>	true	</isLeft>
@@ -324,10 +339,14 @@
       <maxHealth>	130	</maxHealth>
       <maxRegenHealth>	100	</maxRegenHealth>
       <repairCost>5.0</repairCost>
+      <AODecals>
+      </AODecals>
+      <trackThickness>	0.000000	</trackThickness>
     </Chassis_G_Panther_2>
   </chassis>
   <turrets0>
     <Turret_1_G_Panther>
+      <ceilless>	true	</ceilless>
       <userString>#germany_vehicles:Turret_1_G_Panther</userString>
       <tags>	cannotDetach	</tags>
       <level>	7	</level>
@@ -370,8 +389,8 @@
         <repairCost>1.0</repairCost>
       </surveyingDeviceHealth>
       <guns>
-        <_150mm_sFH18_L30>shared<maxAmmo>	30	</maxAmmo><reloadTime>28.5</reloadTime><unlocks><gun>_150mm_sFH36_L43<cost>	16010	</cost></gun></unlocks><models><undamaged>vehicles/german/G49_G_Panther/normal/lod0/Gun_01.model</undamaged><destroyed>vehicles/german/G49_G_Panther/crash/lod0/Gun_01.model</destroyed><exploded>vehicles/german/G49_G_Panther/crash/lod0/Gun_01.model</exploded></models><hitTester><collisionModel>vehicles/german/G49_G_Panther/collision/Gun_01.model</collisionModel></hitTester><armor><gun>	25	</gun><gunBreech>	0	</gunBreech></armor><aimingTime>7.0</aimingTime><pitchLimits>-45 3</pitchLimits><shotDispersionRadius>0.74</shotDispersionRadius><shotDispersionFactors><turretRotation>0.66</turretRotation><afterShot>6.0</afterShot><whileGunDamaged>2.0</whileGunDamaged></shotDispersionFactors><turretYawLimits>-26 26</turretYawLimits><emblemSlots><insigniaOnGun><rayStart>0.000095 -0.0297297 3.75676</rayStart><rayEnd>0.395505 -0.114969 3.74678</rayEnd><rayUp>0.105 0.098 3</rayUp><size>0.618</size><hideIfDamaged>	false	</hideIfDamaged></insigniaOnGun></emblemSlots><animateEmblemSlots>	true	</animateEmblemSlots></_150mm_sFH18_L30>
-        <_150mm_sFH36_L43>shared<maxAmmo>	30	</maxAmmo><reloadTime>34.5</reloadTime><effects>shot_150mm_l38</effects><unlocks><vehicle>GW_Tiger_P<cost>	113600	</cost></vehicle></unlocks><models><undamaged>vehicles/german/G49_G_Panther/normal/lod0/Gun_02.model</undamaged><destroyed>vehicles/german/G49_G_Panther/crash/lod0/Gun_02.model</destroyed><exploded>vehicles/german/G49_G_Panther/crash/lod0/Gun_02.model</exploded></models><hitTester><collisionModel>vehicles/german/G49_G_Panther/collision/Gun_02.model</collisionModel></hitTester><armor><gun>	25	</gun><gunBreech>	0	</gunBreech></armor><shotDispersionRadius>0.7</shotDispersionRadius><aimingTime>	7	</aimingTime><pitchLimits>-45 3</pitchLimits><shotDispersionFactors><turretRotation>0.66</turretRotation><afterShot>6.0</afterShot><whileGunDamaged>2.0</whileGunDamaged></shotDispersionFactors><turretYawLimits>-26 26</turretYawLimits><emblemSlots><insigniaOnGun><rayStart>-0.000000 -0.0300862 3.67711</rayStart><rayEnd>0.300621 -0.299672 3.66713</rayEnd><rayUp>0.106 0.099 3</rayUp><size>0.618</size><hideIfDamaged>	false	</hideIfDamaged></insigniaOnGun></emblemSlots><animateEmblemSlots>	true	</animateEmblemSlots></_150mm_sFH36_L43>
+        <_150mm_sFH18_L30>shared<maxAmmo>	30	</maxAmmo><reloadTime>28.5</reloadTime><unlocks><gun>_150mm_sFH36_L43<cost>	16010	</cost></gun></unlocks><models><undamaged>vehicles/german/G49_G_Panther/normal/lod0/Gun_01.model</undamaged><destroyed>vehicles/german/G49_G_Panther/crash/lod0/Gun_01.model</destroyed><exploded>vehicles/german/G49_G_Panther/crash/lod0/Gun_01.model</exploded></models><hitTester><collisionModel>vehicles/german/G49_G_Panther/collision/Gun_01.model</collisionModel></hitTester><armor><gun>	25	</gun><gunBreech>	0	</gunBreech></armor><aimingTime>7.0</aimingTime><pitchLimits>-45 3</pitchLimits><shotDispersionRadius>0.74</shotDispersionRadius><shotDispersionFactors><turretRotation>0.66</turretRotation><afterShot>6.0</afterShot><whileGunDamaged>2.0</whileGunDamaged></shotDispersionFactors><turretYawLimits>-26 26</turretYawLimits><emblemSlots><insigniaOnGun><rayStart>0.000095 -0.0297297 3.75676</rayStart><rayEnd>0.395505 -0.114969 3.74678</rayEnd><rayUp>0.105 0.098 3</rayUp><size>0.618</size><hideIfDamaged>	false	</hideIfDamaged></insigniaOnGun></emblemSlots><animateEmblemSlots>	true	</animateEmblemSlots><camouflage><tiling>0.895 0.895 0.000000 0.000000</tiling></camouflage></_150mm_sFH18_L30>
+        <_150mm_sFH36_L43>shared<maxAmmo>	30	</maxAmmo><reloadTime>34.5</reloadTime><effects>shot_150mm_l38</effects><unlocks><vehicle>GW_Tiger_P<cost>	113600	</cost></vehicle></unlocks><models><undamaged>vehicles/german/G49_G_Panther/normal/lod0/Gun_02.model</undamaged><destroyed>vehicles/german/G49_G_Panther/crash/lod0/Gun_02.model</destroyed><exploded>vehicles/german/G49_G_Panther/crash/lod0/Gun_02.model</exploded></models><hitTester><collisionModel>vehicles/german/G49_G_Panther/collision/Gun_02.model</collisionModel></hitTester><armor><gun>	25	</gun><gunBreech>	0	</gunBreech></armor><shotDispersionRadius>0.7</shotDispersionRadius><aimingTime>	7	</aimingTime><pitchLimits>-45 3</pitchLimits><shotDispersionFactors><turretRotation>0.66</turretRotation><afterShot>6.0</afterShot><whileGunDamaged>2.0</whileGunDamaged></shotDispersionFactors><turretYawLimits>-26 26</turretYawLimits><emblemSlots><insigniaOnGun><rayStart>-0.000000 -0.0300862 3.67711</rayStart><rayEnd>0.300621 -0.299672 3.66713</rayEnd><rayUp>0.106 0.099 3</rayUp><size>0.618</size><hideIfDamaged>	false	</hideIfDamaged></insigniaOnGun></emblemSlots><animateEmblemSlots>	true	</animateEmblemSlots><camouflage><tiling>0.835 0.835 0.000000 0.000000</tiling></camouflage></_150mm_sFH36_L43>
       </guns>
       <emblemSlots>
         <player>
@@ -400,6 +419,8 @@
       <physicsShape>1.000 0.065 1.000 0.000 1.000 0.000 0.401 0.000 0.328 0.500 0.336 0.500 0.319 0.000 0.138</physicsShape>
       <turretRotatorSoundManual>/turret/turret/turret_manual_traverse/turret_manual_traverse_0-799</turretRotatorSoundManual>
       <turretRotatorSoundGear>/turret/turret/turret_electric_traverse/turret_electric_traverse_0-799</turretRotatorSoundGear>
+      <AODecals>
+      </AODecals>
     </Turret_1_G_Panther>
   </turrets0>
   <engines>
