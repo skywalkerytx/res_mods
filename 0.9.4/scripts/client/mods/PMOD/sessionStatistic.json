@@ -1,0 +1,35 @@
+/*
+	历史战绩记录，详情修改skin file
+	Session statistic *Most of the settings are in the skin file
+*/
+{
+	// true - enable function.
+	"enable": false,
+	
+	// 过期自动重置
+	// Automatically reset the statistics after the expiration date.
+	"autoReset": true,
+	
+	// 战绩保存时间
+	// The number of days during which the stored statistics.
+	"daysToBeSaved": 1,
+
+	// 时间修正. 
+	// Time when statistics are reset (from 0 to 23)
+	"hourOffset": 4,
+	
+	// true - Обрабатывать бои которые идут в основную статистику
+	// false - Обрабатывать все бои без исключений		
+	// true - Process battles that go to general statistics
+	// false - Process all battles without exception
+	"processOnlyStatBattles": false,
+		
+	// Кнопка перезагрузки конфига
+	// Config reload Button
+	"debugButton": {
+		"enable": false,
+		"label": "R",
+		"type": "black",
+		"width": 20
+	}
+}

@@ -1,0 +1,29 @@
+/*
+	战斗中的镜头效果
+	Camera effects during battle.
+*/
+{
+	// true - включить модуль.
+	// true - enable the module.
+	"enable": false,
+	
+	// 镜头惯性缩放 (появилась в 0.8.11).
+	// Сamera inertia (introduced in 0.8.11).
+	"noGlideCamera": false,
+	
+	// 被击中时的红色闪烁.
+	// Red flash when enemy hit your tank.
+	"noFlashBang": false,
+	
+	// 被击中时的镜头晃动.
+	// Shake of camera when enemy hit your tank.
+	"noShockWave": false,
+	
+	// 被击杀时显示击杀者的时间
+	// Time of camera tracking for those who killed you (If it is spotted, and the jackdaw client is configured)
+	"killerVisionTime": 5.0,
+	
+	// Смещением камеры по оси у (высота) относительно геометрического центра модели танка.
+	// Displacement camera on the y-axis (height) relative to the geometric center of the model tank.
+	"heightOffset": 4.0
+}

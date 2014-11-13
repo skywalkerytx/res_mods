@@ -1,0 +1,20 @@
+/* 
+	登录界面.
+	Login screen.
+*/
+{
+	// true - enable the module.
+	"enable" : false,
+	
+	// Автоматический вход при запуске игры.
+	// Automatic login on startup of the game.
+	"autoLogin": false,	
+
+	// Отключение автовыбора сервера в окне логина.
+	// Disable server auto-select in the login window.
+	"saveServer": false,
+	
+	// 跳过片头
+	// Deactivating the ingame start video.
+	"skipVideo": false
+}

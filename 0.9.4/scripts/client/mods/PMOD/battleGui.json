@@ -1,0 +1,18 @@
+/*
+	战斗界面相关.
+	Changing of the interface in battle.
+*/
+{
+	// true - enable the module.
+	"enable": true,
+	
+	// 设置读秒时的玩家栏
+	// 可选项目 - none, short, medium, medium2, large.
+	// Players panel state when counting up the fight.
+	// Possible values ​​- none, short, medium, medium2, large.
+	"playersPanelState": "large",
+	
+	// 第六感灯炮的显示时间
+	// Duration displaying light indicator (lamp) in seconds.
+	"sixSensDuration": 10
+}

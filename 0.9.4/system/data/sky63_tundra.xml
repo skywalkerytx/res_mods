@@ -1,0 +1,271 @@
+<sky63_tundra.xml>
+  <drawSunAndMoon>	true	</drawSunAndMoon>
+  <mieAmount>	0.000000	</mieAmount>
+  <turbidityOffset>	0.000000	</turbidityOffset>
+  <turbidityFactor>	0.100000	</turbidityFactor>
+  <vertexHeightEffect>	0.000000	</vertexHeightEffect>
+  <sunHeightEffect>	0.000000	</sunHeightEffect>
+  <power>	1.000000	</power>
+  <nearFog>	0.070000	</nearFog>
+  <Fog>
+    <version>	1.000000	</version>
+    <innerBB>	-550.000000 -550.000000 550.000000 550.000000	</innerBB>
+    <outerBB>	-600.000000 -600.000000 600.000000 600.000000	</outerBB>
+    <deferred>
+      <heightFog>	true	</heightFog>
+      <nearLow>	2500.000000	</nearLow>
+      <farLow>	2500.000000	</farLow>
+      <nearHigh>	2500.000000	</nearHigh>
+      <farHigh>	2500.000000	</farHigh>
+      <altitudeLow>	0.000000	</altitudeLow>
+      <altitudeMid>	15.000000	</altitudeMid>
+      <altitudeHigh>	250.000000	</altitudeHigh>
+      <skyAltitudeLow>	-100.000000	</skyAltitudeLow>
+      <skyAltitudeMid>	-15.000000	</skyAltitudeMid>
+      <skyAltitudeHigh>	220.000000	</skyAltitudeHigh>
+      <exponent>	1.000000	</exponent>
+      <sunAngle>	45.000000	</sunAngle>
+      <sunExponent>	0.500000	</sunExponent>
+      <colorLow>	0.640000 0.844000 1.000000 0.350000	</colorLow>
+      <colorHigh>	0.640000 0.844000 1.000000 0.350000	</colorHigh>
+      <colorSunLow>	0.940000 0.962200 1.000000 0.450000	</colorSunLow>
+      <colorSunHigh>	0.940000 0.962165 1.000000 0.450000	</colorSunHigh>
+    </deferred>
+    <forward>
+      <heightFog>	true	</heightFog>
+      <nearLow>	2500.000000	</nearLow>
+      <farLow>	2500.000000	</farLow>
+      <nearHigh>	2500.000000	</nearHigh>
+      <farHigh>	2500.000000	</farHigh>
+      <altitudeLow>	0.000000	</altitudeLow>
+      <altitudeMid>	15.000000	</altitudeMid>
+      <altitudeHigh>	140.000000	</altitudeHigh>
+      <skyAltitudeLow>	0.000000	</skyAltitudeLow>
+      <skyAltitudeMid>	15.000000	</skyAltitudeMid>
+      <skyAltitudeHigh>	130.000000	</skyAltitudeHigh>
+      <colorLow>	0.385000 0.448250 0.500000 1.000000	</colorLow>
+      <colorHigh>	0.385000 0.447428 0.500000 1.000000	</colorHigh>
+    </forward>
+    <enable>	true	</enable>
+  </Fog>
+  <day_night_cycle>
+    <forward>
+      <angle>	32.310000	</angle>
+      <angleZ>	12.000000	</angleZ>
+    </forward>
+    <deferred>
+      <angle>	32.310000	</angle>
+      <angleZ>	12.000000	</angleZ>
+    </deferred>
+    <sunScale>	1.630000	</sunScale>
+    <sunColor>	253.000000 198.000000 142.000000	</sunColor>
+    <sunTexture>
+    </sunTexture>
+    <sunScaleForward>	2.445000	</sunScaleForward>
+    <sunColorForward>	253.000000 198.000000 142.000000	</sunColorForward>
+    <sunTextureForward>
+    </sunTextureForward>
+    <moonAngle>	92.090000	</moonAngle>
+    <moonAngleZ>	200.930000	</moonAngleZ>
+    <moonScale>	0.100000	</moonScale>
+    <moonColor>	255.000000 255.000000 255.000000	</moonColor>
+    <moonTexture>
+    </moonTexture>
+    <hourlength>	0.000000	</hourlength>
+    <starttime>	9.000000	</starttime>
+    <lightkey>
+      <time>	0.000000	</time>
+      <colour>	43.000000 112.000000 168.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	8.988764	</time>
+      <colour>	255.000000 237.787500 216.750000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	11.775280	</time>
+      <colour>	255.000000 255.000000 255.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	15.011240	</time>
+      <colour>	255.000000 202.602600 147.877100	</colour>
+    </lightkey>
+    <ambientkey>
+      <time>	0.000000	</time>
+      <colour>	47.000000 62.000000 76.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	8.988764	</time>
+      <colour>	82.875000 97.750010 127.500000	</colour>
+    </ambientkey>
+  </day_night_cycle>
+  <cloudsShadow>
+    <enabled>	true	</enabled>
+    <tiling>	250.000000	</tiling>
+    <speed>	2.000000 4.000000	</speed>
+    <shadowFactor>	0.500000	</shadowFactor>
+    <texture>maps/fx/cloud_1.dds</texture>
+    <angle>	350.000000	</angle>
+    <projectionAltitude1>	0.000000	</projectionAltitude1>
+    <projectionAltitude2>	0.000000	</projectionAltitude2>
+  </cloudsShadow>
+  <HDR>
+    <version>	2	</version>
+    <enable>	true	</enable>
+    <adaptationSpeed>	60.000000	</adaptationSpeed>
+    <bloom>
+      <enable>	true	</enable>
+      <brightThreshold>	1.400000	</brightThreshold>
+      <overBloom>	3.000000	</overBloom>
+      <factor>	0.250000	</factor>
+      <tint>	1.000000 0.996552 0.993631 0.000000	</tint>
+      <mipWeight0>	1.000000	</mipWeight0>
+      <mipWeight1>	0.400000	</mipWeight1>
+      <mipWeight2>	0.700000	</mipWeight2>
+      <mipWeight3>	0.400000	</mipWeight3>
+      <mipWeight4>	0.300000	</mipWeight4>
+    </bloom>
+    <tonemapping>
+      <eyeDarkLimit>	0.700000	</eyeDarkLimit>
+      <eyeLightLimit>	1.900000	</eyeLightLimit>
+      <middleGray>	0.500000	</middleGray>
+    </tonemapping>
+    <environment>
+      <skyLumMultiplier>	3.000000	</skyLumMultiplier>
+      <sunlightLumMultiplier>	3.300000	</sunlightLumMultiplier>
+      <ambientLumMultiplier>	1.500000	</ambientLumMultiplier>
+      <sunLumMultiplier>	15.000000	</sunLumMultiplier>
+    </environment>
+    <gammaCorrection>
+      <enabled>	true	</enabled>
+    </gammaCorrection>
+    <colorCorrection>
+      <map>system/maps/post_processing/cube/wgr_filmic_6e.dds</map>
+    </colorCorrection>
+  </HDR>
+  <GodRays>
+    <enable>	true	</enable>
+    <attenuationPower>	30	</attenuationPower>
+    <decay>	0.750000	</decay>
+    <color>	1.000000 0.693842 0.343949 1.000000	</color>
+  </GodRays>
+  <LensFlare>
+    <enable>	true	</enable>
+    <haloFade>	500.000000	</haloFade>
+    <haloWidth>	0.180000	</haloWidth>
+    <ghostDispersion>	0.290000	</ghostDispersion>
+    <starIntensity>	3.000000	</starIntensity>
+    <starOffset>	0.000000	</starOffset>
+    <colorUVScale>	15.000000	</colorUVScale>
+    <chromDistortion>	21.000000	</chromDistortion>
+    <dirtWeight>	4.000000	</dirtWeight>
+    <dirtOffset>	0.000000	</dirtOffset>
+    <sunTintColor>	1.000000 0.737255 0.474510 0.800000	</sunTintColor>
+    <sunSize>	0.800000	</sunSize>
+    <sunBrightness>	0.120000	</sunBrightness>
+    <sunSpeed>	0.000600	</sunSpeed>
+    <sunTexture1>system/maps/sun_aberation3.dds</sunTexture1>
+    <sunTexture2>system/maps/sun_aberation3.dds</sunTexture2>
+    <colorTexture>system/maps/lenscolor3.dds</colorTexture>
+    <starTexture>system/maps/lensstar3.dds</starTexture>
+    <dirtTexture>system/maps/lensdirt3.dds</dirtTexture>
+  </LensFlare>
+  <SSAO>
+    <enable>	true	</enable>
+    <radius>	0.080000	</radius>
+    <amplify>	0.400000	</amplify>
+    <fadeNear>	1.000000	</fadeNear>
+    <fadeFar>	100.000000	</fadeFar>
+    <terrainAOGammaCorrection>	0.300000	</terrainAOGammaCorrection>
+    <roDistanceNear>	1.000000	</roDistanceNear>
+    <roDistanceFar>	100.000000	</roDistanceFar>
+    <roDepthRangeNear>	1.000000	</roDepthRangeNear>
+    <roDepthRangeFar>	100.000000	</roDepthRangeFar>
+    <roAmplify>	1.000000	</roAmplify>
+    <roAngleMultiplier>	20.000000	</roAngleMultiplier>
+    <roMipBias>	1	</roMipBias>
+    <roMipLevels>	8	</roMipLevels>
+    <influences>
+      <speedtree>	0.700000 0.200000	</speedtree>
+      <terrain>	1.000000 0.670000	</terrain>
+      <objects>	1.000000 0.200000	</objects>
+      <localLights>	0.750000	</localLights>
+    </influences>
+  </SSAO>
+  <Shadow>
+    <semiEnable>	true	</semiEnable>
+  </Shadow>
+  <overlayMaterial>
+    <enable>	false	</enable>
+    <layer>
+      <slope1>	63.300000	</slope1>
+      <slope2>	90.000000	</slope2>
+      <twoSided>	false	</twoSided>
+      <amount>	0.860000	</amount>
+      <specular>	0.000000	</specular>
+      <tiling>	2.000000	</tiling>
+      <tileRotation>	0.000000	</tileRotation>
+      <projectionAltitude1>	-15.700000	</projectionAltitude1>
+      <projectionAltitude2>	74.300000	</projectionAltitude2>
+      <minAltitude>	-41.860000	</minAltitude>
+      <maxAltitude>	40.000000	</maxAltitude>
+      <altitudeFalloff>	26.000000	</altitudeFalloff>
+      <texture>maps/overlay/moss_red.dds</texture>
+      <normalMap>maps/overlay/moss_NM.dds</normalMap>
+    </layer>
+    <layer>
+      <slope1>	62.800000	</slope1>
+      <slope2>	90.000000	</slope2>
+      <twoSided>	false	</twoSided>
+      <amount>	1.000000	</amount>
+      <specular>	0.000000	</specular>
+      <tiling>	1.000000	</tiling>
+      <tileRotation>	0.000000	</tileRotation>
+      <projectionAltitude1>	90.000000	</projectionAltitude1>
+      <projectionAltitude2>	3.100000	</projectionAltitude2>
+      <minAltitude>	0.000000	</minAltitude>
+      <maxAltitude>	100.000000	</maxAltitude>
+      <altitudeFalloff>	20.000000	</altitudeFalloff>
+      <texture>maps/overlay/moss_yellow.dds</texture>
+      <normalMap>maps/overlay/moss_yellow_NM.dds</normalMap>
+    </layer>
+    <layer>
+      <slope1>	59.700000	</slope1>
+      <slope2>	90.000000	</slope2>
+      <twoSided>	false	</twoSided>
+      <amount>	0.740000	</amount>
+      <specular>	0.000000	</specular>
+      <tiling>	1.000000	</tiling>
+      <tileRotation>	-134.000000	</tileRotation>
+      <projectionAltitude1>	90.000000	</projectionAltitude1>
+      <projectionAltitude2>	22.000000	</projectionAltitude2>
+      <minAltitude>	0.000000	</minAltitude>
+      <maxAltitude>	100.000000	</maxAltitude>
+      <altitudeFalloff>	20.000000	</altitudeFalloff>
+      <texture>maps/overlay/moss_red.dds</texture>
+      <normalMap>maps/overlay/moss_red_NM.dds</normalMap>
+    </layer>
+    <layer>
+      <slope1>	59.700000	</slope1>
+      <slope2>	90.000000	</slope2>
+      <twoSided>	false	</twoSided>
+      <amount>	0.800000	</amount>
+      <specular>	0.000000	</specular>
+      <tiling>	1.600000	</tiling>
+      <tileRotation>	0.000000	</tileRotation>
+      <projectionAltitude1>	-90.000000	</projectionAltitude1>
+      <projectionAltitude2>	26.000000	</projectionAltitude2>
+      <minAltitude>	0.000000	</minAltitude>
+      <maxAltitude>	100.000000	</maxAltitude>
+      <altitudeFalloff>	20.000000	</altitudeFalloff>
+      <texture>maps/overlay/moss_green.dds</texture>
+      <normalMap>maps/overlay/moss_NM.dds</normalMap>
+    </layer>
+    <models>spaces/63_tundra/overlay.bin</models>
+  </overlayMaterial>
+  <PBS>
+    <DEFERRED>
+      <REM>maps/skyboxes/63_tundra_sky/lightcube/REM.dds</REM>
+      <PMREM>maps/skyboxes/63_tundra_sky/lightcube/PMREM.dds</PMREM>
+    </DEFERRED>
+  </PBS>
+</sky63_tundra.xml>

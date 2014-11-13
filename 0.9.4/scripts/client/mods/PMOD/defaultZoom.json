@@ -1,0 +1,11 @@
+/*
+	固定开镜时的放大倍数.
+	Constant starting value of sniper scope multiplicity.
+*/
+{
+	// true - enable the module.
+	"enable" : false,
+	
+	// Constant value of multiplicity when entering the the sniper scope.
+	"defaultZoomValue" : 5
+}

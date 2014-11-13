@@ -1,0 +1,59 @@
+<MinimapDestructible>
+	
+	<!-- Enable / Disable the modification of the default -->
+	<minimapEnable>1</minimapEnable>
+	<!-- Options: 0 — Disable, 1 — Enable -->
+	
+	<!-- Modification language of the default -->
+	<minimapSpeech>EN</minimapSpeech>
+	<!-- Options: EN — English, RU — Russian -->
+	
+	<!-- Option display mode of destruction of objects-->
+	<minimapRegime>1</minimapRegime>
+	<!-- Options: 1 — standard , 2 — markers -->
+	
+	<!-- Button activate / deactivate the modification -->
+	<minimapButton>KEY_F2</minimapButton>
+	<!-- Options: for complete deactivation need to remove the line -->
+	
+	<!-- Type marker option by default -->
+	<minimapMarker>1</minimapMarker>
+	<!-- Options: 1 — standard, 2 — use a marker of minimap.swf -->
+	
+	<!-- Animation pulse option by default -->
+	<minimapPulses>2</minimapPulses>
+	<!-- Options: 0 — Disable, option settings 1 to 5 -->
+	
+	<!-- Sound notification option by default -->
+	<minimapNotice>3</minimapNotice>
+	<!-- Options: 0 — Disable, option settings 1 to 5 -->
+	
+	<!-- Range inclusion marker and direction indicator -->
+	<vehicleSquare>300</vehicleSquare>
+	<!-- Options: any number in meters (recommended 150 to 400) -->
+	
+	<!-- Display option default marker -->
+	<vehicleMarker>2</vehicleMarker>
+	<!-- Options: 0 — Disable, option settings 1 to 2 -->
+	
+	<!-- Color an indicator display the default direction -->
+	<vehicleDetect>1</vehicleDetect>
+	<!-- Options: 0 — Disable, option settings 1 to 3 -->
+	
+	<!-- Option display labels on the minimap -->
+	<minimapMethod>2</minimapMethod>
+	<!-- Options: 1 — static mode, 2 - dynamic mode -->
+	
+	<!-- Sensitivity markers of the default -->
+	<minimapLength>25</minimapLength>
+	<!-- Options: any number (recommended 25 to 40) -->
+	
+	<!-- Timer to delay execution of the inverse function (affects FPS) -->
+	<callmapUpdate>0.1</callmapUpdate>
+	<!-- Options: any number (recommended 0.1 to 1.5) -->
+	
+	<!-- Timer remove marks on the minimap -->
+	<minimapRemain>15</minimapRemain>
+	<!-- Options: any number (the value in seconds) -->
+	
+</MinimapDestructible>

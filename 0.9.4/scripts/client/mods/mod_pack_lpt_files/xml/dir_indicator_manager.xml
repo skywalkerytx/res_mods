@@ -1,0 +1,10 @@
+<dir_indicator_manager>
+	<description>Enemy direction indicators</description>
+	<modules>
+		<dir_indicator_manager>True</dir_indicator_manager>
+	</modules>
+	<settings>
+		<imported_module>Mods/mod_pack_lpt_files/own_scripts/Dir_Indicator_Layout</imported_module>
+		<green_red>300</green_red>
+	</settings>
+</dir_indicator_manager>

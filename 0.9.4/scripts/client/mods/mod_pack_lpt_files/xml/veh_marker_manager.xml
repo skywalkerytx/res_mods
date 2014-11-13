@@ -1,0 +1,11 @@
+<veh_marker_manager>
+	<description>Enemy reloading markers</description>
+	<modules>
+		<veh_marker_manager>True</veh_marker_manager>
+	</modules>
+	<settings>
+		<imported_module>Mods/mod_pack_lpt_files/own_scripts/Veh_Marker_Layout</imported_module>
+		<reload_tout>0.1</reload_tout>
+		<reload_tlat>0.1</reload_tlat>
+	</settings>
+</veh_marker_manager>

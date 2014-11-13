@@ -1,0 +1,8 @@
+/*
+	禁止滚轮开镜
+	Cancel change camera modes by scrolling.
+*/
+{
+	// true - enable the module.
+	"enable" : false
+}

@@ -1,0 +1,8 @@
+/*
+	开镜去黑边和绿色.
+	Disabling dimming and greening in sniper scope.
+*/
+{
+	// true - enable the module.
+	"enable" : false
+}

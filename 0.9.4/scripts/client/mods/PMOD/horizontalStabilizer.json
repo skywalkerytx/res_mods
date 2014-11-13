@@ -1,0 +1,14 @@
+/*
+	瞄准镜稳定设置
+	Behavior of horizontal stabilization.
+*/
+{
+	// true - enable the module.
+	"enable": false,
+	
+	// 瞄准镜晃动类型.
+	// disable - 关闭, full - 开启.
+	// Type of horizontal stabilization.
+	// disable - off on the whole technique, full - included on all vehicles.
+	"horizontalStabilizerType": "full"
+}

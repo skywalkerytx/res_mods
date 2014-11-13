@@ -1,0 +1,19 @@
+/*
+	设定开场和死亡时的镜头位置.
+	Distancing camera at start of battle and after destroying the tank.
+*/
+{
+	// true - включить модуль.
+	// true - enable the module.
+	"enable" : false,
+	
+	// 开场距离
+	// Distancing camera when entering the the fight.
+	// minimum - 1, maximum - 400, standard - 2.
+	"startDistance": 2,
+	
+	// 死后距离
+	// Distancing camera after destroying the tank.
+	// minimum - 1, maximum - 400, standard - 15.
+	"deadDistance": 15
+}

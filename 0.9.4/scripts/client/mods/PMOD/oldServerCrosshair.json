@@ -1,0 +1,83 @@
+/*
+	Старый серверный прицел.
+	服务器准星
+*/
+{
+	// true - enable the module.
+	"enable": true,
+		
+	// Arcade mode.
+	"arcadeMode" : {
+		
+		// 开启服务器准星
+		// Show server crosshair.
+		"enableServerGunMarker" : true,
+		
+		// 开启本地准星
+		// Show default flash crosshair.
+		"enableFlashGunMarker" : true,
+		
+		// 准星大小  默认64.
+		// The size and location of the texture.
+		"textureSettings" : {
+			"width" : 64,
+			"height" : 64,
+			"path" : "scripts/client/mods/PMOD/gun_marker.dds"
+		},
+		
+		// 准星比例
+		// Crosshair scale 
+		"crosshairScale" : 1,
+		
+		// 勿改
+		// These parameters you better not touch it, they relate to the layout inside texture. 
+		// People who make their texture, or use any non-standard, familiar with these parameters.
+		"crosshairElements" : {
+			"top" :    {"mapping": [13, 0, 26, 13], "size": [13, 13]},
+			"right" :  {"mapping": [26, 0, 39, 13], "size": [13, 13]},
+			"bottom" : {"mapping": [39, 0, 52, 13], "size" : [13, 13]},
+			"left" :   {"mapping": [0, 0, 13, 13],  "size" : [13, 13]},
+			"center" : {"mapping": [0, 13, 21, 34], "size" : [21, 21]}
+		}
+	},
+	
+	// 狙击模式
+	// Sniper mode.
+	"sniperMode" : {
+		"enableServerGunMarker" : true,
+		"enableFlashGunMarker" : true,
+		"textureSettings" : {
+			"width" : 64,
+			"height" : 64,
+			"path" : "scripts/client/mods/PMOD/gun_marker.dds"
+		},
+		"crosshairScale" : 0.5,
+		"crosshairElements" : {
+			"top" :    {"mapping": [13, 0, 26, 13], "size": [13, 13]},
+			"right" :  {"mapping": [26, 0, 39, 13], "size": [13, 13]},
+			"bottom" : {"mapping": [39, 0, 52, 13], "size" : [13, 13]},
+			"left" :   {"mapping": [0, 0, 13, 13],  "size" : [13, 13]},
+			"center" : {"mapping": [0, 13, 21, 34], "size" : [21, 21]}
+		}
+	},
+	
+	// 火炮模式
+	// Strategic mode.
+	"strategicMode" : {
+		"enableServerGunMarker" : true,
+		"enableFlashGunMarker" : true,
+		"textureSettings" : {
+			"width" : 64,
+			"height" : 64,
+			"path" : "scripts/client/mods/PMOD/gun_marker_standart.dds"
+		},
+		"crosshairScale" : 0.5,
+		"crosshairElements" : {
+			"top" :    {"mapping": [13, 0, 26, 13], "size": [13, 13]},
+			"right" :  {"mapping": [26, 0, 39, 13], "size": [13, 13]},
+			"bottom" : {"mapping": [39, 0, 52, 13], "size" : [13, 13]},
+			"left" :   {"mapping": [0, 0, 13, 13],  "size" : [13, 13]},
+			"center" : {"mapping": [0, 13, 21, 34], "size" : [21, 21]}
+		}
+	}	
+}
