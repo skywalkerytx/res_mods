@@ -1,28 +1,27 @@
-<NoScroll.xml> 
-2     <!-- 
-3         ГЋГІГЄГ«ГѕГ·ГҐГ­ГЁГҐ ГЇГҐГ°ГҐГµГ®Г¤Г  Г¬ГҐГ¦Г¤?Г°ГҐГ¦ГЁГ¬Г Г¬ГЁ ГЁГ±ГЇГ®Г«ГјГ§ГіГї scroll(ГЄГ®Г«ГҐГ±ГЁГЄГ® Г¬Г»ГёГЄ? 
-4         "True" -  Г¬Г®Г¤ГЁГґГЁГЄГ Г¶ГЁГї ГўГЄГ«ГѕГ·ГҐГ­Г  
-5         "False" - Г¬Г®Г¤ГЁГґГЁГЄГ Г¶ГЁГї Г®ГІГЄГ«ГѕГ·ГҐГ­?(Г°Г ГўГ­Г®Г±ГЁГ«ГјГ­?Г®ГІГ±ГіГІГ±ГІГўГЁГѕ Г¬Г®Г¤ГЁГґГЁГЄГ Г¶ГЁ? 
-6         Г…Г±Г«ГЁ Г¤Г Г­Г­Г»Г© ГґГ Г©Г«(gui/noscroll.xml) Г®ГІГ±ГіГІГ±ГІГўГіГҐ?- Г°Г ГўГ­Г®Г±ГЁГ«ГјГ­?"<noscroll>False</noscroll>" 
-7     --> 
-8     <!-- 
-9         "True" disables mouse scroll to enter Sniper Mode, "False" mouse scroll enabled (default) 
-10     --> 
-11     <noScroll>False</noScroll> 
-12 
- 
-13     <!-- 
-14         ГЋГЇГ°ГҐГ¤ГҐГ«ГҐГ­ГЁ?Г¤ГҐГґГ®Г«ГІГ®ГўГ®Г© ГЄГ°Г ГІГ­Г®Г±ГІ?ГЇГ°?Г ГЄГІГЁГўГ Г¶ГЁ?Г±Г­Г Г©ГЇГҐГ°Г±ГЄГ®ГЈГ® Г°ГҐГ¦ГЁГ¬Г  
-15         <defZoom>True</defZoom> - ГЇГ°?Г ГЄГІГЁГўГЁГ°Г®ГўГ Г­ГЁ?Г±Г­Г Г©ГЇГҐГ°Г±ГЄГ®ГЈГ® Г°ГҐГ¦ГЁГ¬Г  ГіГ±ГІГ Г­Г Г«ГЁГўГ ГҐГІ? ГЄГ°Г ГІГ­Г®Г±ГІ?Г§ГіГ¬Г  
-16                                   ГіГЄГ Г§Г Г­Г­Г Гї ГЇГ Г°Г Г¬ГҐГІГ°Г®Г¬ <defZoomVal>X</defZoomVal> 
-17         <defZoom>False</defZoom> - Г®ГІГЄГ«ГѕГ·Г ГҐ?Г¬Г®Г¤ГЁГґГЁГЄГ Г¶ГЁ? 
-18     --> 
-19     <!-- 
-20         "True" min. zoom lvl. used for first step of sniper mode (default), "False" remember last time used zoom lvl. 
-21     --> 
-22     <defZoom>True</defZoom> 
-23     <!-- 
-24         Zoom level for first step of sniper mode, works only if "defZoom" is "False" 
-25     --> 
-26     <defZoomVal>4.0</defZoomVal> 
-27 </NoScroll.xml> 
+<NoScroll.xml>
+    <!--
+        Отключение перехода межд?режимами используя scroll(колесико мышк?
+        "True" -  модификация включена
+        "False" - модификация отключен?(равносильн?отсутствию модификаци?
+        Если данный файл(gui/noscroll.xml) отсутствуе?- равносильн?"<noscroll>False</noscroll>"
+    -->
+    <!--
+        "True" disables mouse scroll to enter Sniper Mode, "False" mouse scroll enabled (default)
+    -->
+    <noScroll>False</noScroll>
+
+    <!--
+        Определени?дефолтовой кратност?пр?активаци?снайперского режима
+        <defZoom>True</defZoom> - пр?активировани?снайперского режима устаналивает? кратност?зума
+                                  указанная параметром <defZoomVal>X</defZoomVal>
+        <defZoom>False</defZoom> - отключае?модификаци?
+    -->
+    <!--
+        "True" min. zoom lvl. used for first step of sniper mode (default), "False" remember last time used zoom lvl.
+    -->
+    <defZoom>True</defZoom>
+    <!--
+        Zoom level for first step of sniper mode, works only if "defZoom" is "False"
+    -->
+    <defZoomVal>2.0</defZoomVal>
+</NoScroll.xml>

@@ -1,0 +1,72 @@
+<yellowgun.visual>
+  <node>
+    <identifier>Scene Root</identifier>
+    <transform>
+      <row0>	1.000000 0.000000 0.000000	</row0>
+      <row1>	0.000000 1.000000 0.000000	</row1>
+      <row2>	0.000000 0.000000 1.000000	</row2>
+      <row3>	0.000000 0.000000 0.000000	</row3>
+    </transform>
+    <node>
+      <identifier>Gun</identifier>
+      <transform>
+        <row0>	1.000000 0.000000 0.000000	</row0>
+        <row1>	0.000000 1.000000 0.000000	</row1>
+        <row2>	0.000000 0.000000 1.000000	</row2>
+        <row3>	0.000000 0.000000 0.000000	</row3>
+      </transform>
+      <node>
+        <identifier>G</identifier>
+        <transform>
+          <row0>	1.000000 0.000000 0.000000	</row0>
+          <row1>	0.000000 1.000000 0.000000	</row1>
+          <row2>	0.000000 0.000000 1.000000	</row2>
+          <row3>	0.000000 0.000000 3.000000	</row3>
+        </transform>
+        <node>
+          <identifier>HP_gunFire</identifier>
+          <transform>
+            <row0>	1.000000 0.000000 0.000000	</row0>
+            <row1>	0.000000 1.000000 0.000000	</row1>
+            <row2>	0.000000 0.000000 1.000000	</row2>
+            <row3>	0.000600 -0.002214 -0.900727	</row3>
+          </transform>
+        </node>
+        <node>
+          <identifier>G_BlendBone</identifier>
+          <transform>
+            <row0>	1.000000 0.000000 0.000000	</row0>
+            <row1>	0.000000 1.000000 0.000000	</row1>
+            <row2>	0.000000 0.000000 -1.000000	</row2>
+            <row3>	0.000000 0.000000 -3.000000	</row3>
+          </transform>
+        </node>
+      </node>
+      <node>
+        <identifier>Gun_BlendBone</identifier>
+        <transform>
+          <row0>	1.000000 0.000000 0.000000	</row0>
+          <row1>	0.000000 1.000000 0.000000	</row1>
+          <row2>	0.000000 0.000000 -1.000000	</row2>
+          <row3>	0.000000 0.000000 0.000000	</row3>
+        </transform>
+      </node>
+    </node>
+  </node>
+  <renderSet>
+    <treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+    <node>G_BlendBone</node>
+    <node>Gun_BlendBone</node>
+    <geometry>
+      <vertices>gun_05Shape.vertices</vertices>
+      <primitive>gun_05Shape.indices</primitive>
+      <primitiveGroup>	0	
+      <material><identifier>tank_mat_skinned</identifier><fx>shaders/std_effects/normalmap_specmap_skinned.fx</fx><collisionFlags>	0	</collisionFlags><materialKind>	0	</materialKind><property>specularMap<Texture>vehicles/german/G06_PzII/PzII_SM.dds</Texture></property><property>normalMap<Texture>vehicles/german/G06_PzII/PzII_NM.dds</Texture></property><property>diffuseMap<Texture>vehicles/german/G06_PzII/PzII.dds</Texture></property></material></primitiveGroup>
+      <primitiveGroup>	1	<material><identifier>tank_mat_skinned</identifier><fx>shaders/std_effects/normalmap_specmap_skinned.fx</fx><collisionFlags>	0	</collisionFlags><materialKind>	0	</materialKind><property>specularMap<Texture>vehicles/german/G06_PzII/PzII_SM.dds</Texture></property><property>normalMap<Texture>vehicles/german/G06_PzII/PzII_NM.dds</Texture></property><property>diffuseMap<Texture>objects/yellow.dds</Texture></property></material></primitiveGroup>
+    </geometry>
+  </renderSet>
+  <boundingBox>
+    <min>	-0.071808 -0.129517 -0.074841	</min>
+    <max>	0.671042 0.130313 2.116898	</max>
+  </boundingBox>
+</yellowgun.visual>

@@ -4,82 +4,82 @@
 
 <damagePanel>
 
-		<!-- Блок настройки макросов -->
+		<!-- Tuner macros -->
 
-	<!-- Макрос для определения команды атаковавшего игрока - {{tank-team}} -->
+	<!-- 攻击来源定义 - {{tank-team}} -->
 	<configTeamAttacker>
-		<formatPlayer>玩家</formatPlayer> <!-- игрок -->
-		<formatAlly>队友</formatAlly> <!-- союзник -->
-		<formatEnemy>敌人</formatEnemy> <!-- противник -->
+		<formatPlayer>玩家</formatPlayer> <!-- 玩家 -->
+		<formatAlly>队友</formatAlly> <!-- 队友 -->
+		<formatEnemy>敌人</formatEnemy> <!-- 敌人 -->
 	</configTeamAttacker>
 	
-	<!-- Макрос для определения типа полученного урона - {{dmg-reason}} -->
+	<!-- 伤害类型 - {{dmg-reason}} -->
 	<configReasonDamage>
-		<formatAttack><![CDATA[<font size='14' color='{{clr-shell-gold}}'>{{shell-type}}</font>]]></formatAttack> <!-- полученный урон при пробитии -->
-		<formatFire><![CDATA[<font face='$IMELanguageBar' size='17' color='{{clr-dmg-reason}}'>6</font>]]></formatFire> <!-- полученный урон при пожаре -->
-		<formatRam><![CDATA[<font face='$IMELanguageBar' size='17' color='{{clr-dmg-reason}}'>7</font>]]></formatRam> <!-- полученный урон при таране -->
-		<formatDrop><![CDATA[<font face='$IMELanguageBar' size='17' color='{{clr-dmg-reason}}'>8</font>]]></formatDrop> <!-- полученный урон при падении -->
-		<formatOther><![CDATA[<font size='14' color='{{clr-shell-gold}}'>{{shell-type}}</font>]]></formatOther> <!-- без урона -->
+		<formatAttack><![CDATA[<font face='$IMELanguageBar' size='14' color='{{clr-shell-type}}'>{{shell-type}}</font>]]></formatAttack>
+		<formatFire><![CDATA[<font face='DPSymbol' size='17' color='{{clr-dmg-reason}}'>6</font>]]></formatFire>
+		<formatRam><![CDATA[<font face='DPSymbol' size='17' color='{{clr-dmg-reason}}'>7</font>]]></formatRam>
+		<formatDrop><![CDATA[<font face='DPSymbol' size='17' color='{{clr-dmg-reason}}'>8</font>]]></formatDrop>
+		<formatOther><![CDATA[<font face='$IMELanguageBar' size='14' color='{{clr-shell-type}}'>{{shell-type}}</font>]]></formatOther>
 	</configReasonDamage>
 	
-	<!-- Макрос для определения типа попадания - {{hit-reason}} -->
+	<!-- 命中状态 - {{hit-reason}} -->
 	<configReasonHit>
-		<formatRicochet><![CDATA[<font size='14' color='#999999'><b>跳弹</b></font>]]></formatRicochet> <!-- рикошет -->
-		<formatArmorNotPierced><![CDATA[<font size='14' color='#999999'><b>未击穿</b></font>]]></formatArmorNotPierced> <!-- непробитие -->
-		<formatArmorPiercedNoDamage><![CDATA[<font size='14' color='#999999'><b>未造成伤害</b></font>]]></formatArmorPiercedNoDamage> <!-- пробитие без урона -->
-		<formatCriticalHit><![CDATA[<font size='14' color='#999999'><b>击坏</b></font>]]></formatCriticalHit> <!-- критическое повреждение модуля или экипажа -->
-		<formatArmorPierced><![CDATA[<b>{{dmg-one}}</b>]]></formatArmorPierced> <!-- пробитие с уроном -->
-		<formatSplash><![CDATA[<b>{{dmg-one}}</b> <font face='$IMELanguageBar' size='17'>9</font>]]></formatSplash> <!-- урон от осколков ОФ снаряда -->
-		<formatOtherDamage><![CDATA[<b>{{dmg-one}}</b>]]></formatOtherDamage> <!-- другой урон (пожар/таран/падение) -->
+		<formatRicochet><![CDATA[<font color='#CCCCCC'><b>跳弹</b></font>]]></formatRicochet> <!-- 跳弹 -->
+		<formatArmorNotPierced><![CDATA[<font color='#CCCCCC'><b>未击穿</b></font>]]></formatArmorNotPierced> <!-- 未击穿 -->
+		<formatArmorPiercedNoDamage><![CDATA[<font color='#CCCCCC'><b>无伤害</b></font>]]></formatArmorPiercedNoDamage> <!-- 击穿但没伤害 -->
+		<formatCriticalHit><![CDATA[<b>{{tank-part}}</b>]]></formatCriticalHit> <!-- 击毁部件 -->
+		<formatArmorPierced><![CDATA[<font color='{{clr-shell-gold}}'><b>{{dmg-one}}</b></font>]]></formatArmorPierced> <!-- 击穿掉血 -->
+		<formatSplash><![CDATA[<b>{{dmg-one}}</b> <font face='DPSymbol' size='17'>9</font>]]></formatSplash> <!-- 溅射 -->
+		<formatOtherDamage><![CDATA[<font color='{{clr-dmg-reason}}'><b>{{dmg-one}}</b></font>]]></formatOtherDamage> <!-- 其他伤害(着火、碰撞、摔落) -->
 	</configReasonHit>
 	
-	<!-- Макрос для определения части танка, в которую было попадание снаряда - {{tank-part}} -->
+	<!-- 坦克部件 - {{tank-part}} -->
 	<configPartTank>
-		<formatChassis><![CDATA[  [ <font color='#CCCCCC' size='14'>履带</font> ]]]></formatChassis> <!-- шасси -->
-		<formatHull><![CDATA[  [ <font color='#CCCCCC' size='14'>车体</font> ]]]></formatHull> <!-- корпус -->
-		<formatTurret><![CDATA[  [ <font color='#CCCCCC' size='14'>炮塔</font> ]]]></formatTurret> <!-- башня -->
-		<formatGun><![CDATA[  [ <font color='#CCCCCC' size='14'>火炮</font> ]]]></formatGun> <!-- орудие -->
-		<formatOther><![CDATA[  [ <font color='#CCCCCC' size='14'> -/- </font> ]]]></formatOther> <!-- другой урон (пожар/таран/падение) -->
+		<formatChassis><![CDATA[<font color='#CCCCCC' size='14'>履带</font>]]></formatChassis>
+		<formatHull><![CDATA[<font color='#CCCCCC' size='14'>车体</font>]]></formatHull>
+		<formatTurret><![CDATA[<font color='#CCCCCC' size='14'>炮塔</font>]]></formatTurret>
+		<formatGun><![CDATA[<font color='#CCCCCC' size='14'>火炮</font>]]></formatGun>
+		<formatOther><![CDATA[<font color='#CCCCCC' size='14'>-/-</font>]]></formatOther>
 	</configPartTank>
 	
-	<!-- Макрос для определения типа техники атаковавшего игрока - {{tank-class}} -->
+	<!-- 坦克类型 - {{tank-class}} -->
 	<configClassTank>
-		<formatATSPG><![CDATA[<font face='$IMELanguageBar' size='17'>1</font>]]></formatATSPG> <!-- строка для отображения противотанковой техники -->
-		<formatSPG><![CDATA[<font face='$IMELanguageBar' size='17'>2</font>]]></formatSPG> <!-- строка для отображения артиллерийских установок -->
-		<formatLightTank><![CDATA[<font face='$IMELanguageBar' size='17'>3</font>]]></formatLightTank> <!-- строка для отображения легких танков -->
-		<formatMediumTank><![CDATA[<font face='$IMELanguageBar' size='17'>4</font>]]></formatMediumTank> <!-- строка для отображения средних танков -->
-		<formatHeavyTank><![CDATA[<font face='$IMELanguageBar' size='17'>5</font>]]></formatHeavyTank> <!-- строка для отображения тяжелых танков -->
-		<formatOtherTank><![CDATA[<font face='$IMELanguageBar' size='17'>?</font>]]></formatOtherTank> <!-- строка для отображения техники, тип которой определить не удалось -->
+		<formatATSPG><![CDATA[<font face='DPSymbol' size='17'>1</font>]]></formatATSPG>
+		<formatSPG><![CDATA[<font face='DPSymbol' size='17'>2</font>]]></formatSPG>
+		<formatLightTank><![CDATA[<font face='DPSymbol' size='17'>3</font>]]></formatLightTank>
+		<formatMediumTank><![CDATA[<font face='DPSymbol' size='17'>4</font>]]></formatMediumTank>
+		<formatHeavyTank><![CDATA[<font face='DPSymbol' size='17'>5</font>]]></formatHeavyTank>
+		<formatOtherTank><![CDATA[<font face='DPSymbol' size='17'>?</font>]]></formatOtherTank>
 	</configClassTank>
 	
-	<!-- Макрос для определения типа снаряда, которым было произведенно попадание - {{shell-type}} -->
+	<!-- 弹药类型的名称 - {{shell-type}} -->
 	<configTypeShell>
-		<formatAP> AP</formatAP> <!-- бронебойный снаряд -->
-		<formatAPC> APCR</formatAPC> <!-- подкалиберный снаряд -->
-		<formatHE> HE</formatHE> <!-- осколочно-фугасный снаряд -->
-		<formatHC> HEAT</formatHC> <!-- кумулятивный снаряд -->
-		<formatOther> -/-</formatOther> <!-- тип снаряда определить не удалось -->
-		<formatOtherDamage> -/-</formatOtherDamage> <!-- другой урон (пожар/таран/падение) -->
+		<formatAP> AP</formatAP>
+		<formatAPC> APCR</formatAPC>
+		<formatHE> HE</formatHE>
+		<formatHC> HEAT</formatHC>
+		<formatOther> --</formatOther>
+		<formatOtherDamage> --</formatOtherDamage>
 	</configTypeShell>
 	
-	<!-- Макрос для определения стоимости снаряда, нанесшего урон - {{shell-gold}} -->
+	<!-- 弹药图标 - {{shell-gold}} -->
 	<configGoldShell>
 		<formatTrue><![CDATA[<img src='img://gui/maps/icons/library/GoldIcon-1.png' width='12' height='12' align='baseline' vspace='-3'>]]></formatTrue> <!-- снаряды, которые продаются за серебро и золото -->
 		<formatFalse><![CDATA[<img src='img://gui/maps/icons/library/CreditsIcon-1.png' width='12' height='12' align='baseline' vspace='-3'>]]></formatFalse> <!-- снаряды, которые продаются за серебро -->
-		<formatOther><![CDATA[-/-]]></formatOther> <!-- тип снаряда определить не удалось -->
-		<formatOtherDamage><![CDATA[-/-]]></formatOtherDamage> <!-- другой урон (пожар/таран/падение) -->
+		<formatOther><![CDATA[--]]></formatOther>
+		<formatOtherDamage><![CDATA[--]]></formatOtherDamage>
 	</configGoldShell>
 	
-	<!-- Макросы для определения динамически изменяющихся цветов -->
+	<!-- 定义不同类型的颜色 -->
 	<configColor>
 		<teamAttacker player = "#B9FFA1" ally = "#A0CFFF" enemy = "#CCCCCC"/> <!-- {{clr-tank-team}} -->
-		<reasonDamage attack = "#FFAA55" fire = "#FF6655" ram = "#998855" drop = "#228855" other = "#999999"/> <!-- {{clr-dmg-reason}}  -->
+		<reasonDamage attack = "#FFFFFF" fire = "#FF6655" ram = "#b39f64" drop = "#2db370" other = "#999999"/> <!-- {{clr-dmg-reason}}  -->
 		<classTank ATSPG = "#A0CFFF" SPG = "#EFAEFF" lightTank = "#A2FF9A" mediumTank = "#FFACAC" heavyTank = "#FFF198" otherTank = "#FFFFFF"/> <!-- {{clr-tank-class}}  -->
-		<typeShell AP = "#FFAA55" APC = "#FF6C00" HE = "#998855" HC = "#228855" other = "#999999" otherDamage = "#FFFFFF"/> <!-- {{clr-shell-type}} -->
-		<goldShell goldTrue = "#FF6655" goldFalse = "#CCCCCC" other = "#999999" otherDamage = "#FFFFFF"/> <!-- {{clr-shell-gold}}-->
+		<typeShell AP = "#FFFFFF" APC = "#FF6C00" HE = "#ccc28f" HC = "#FFAA55" other = "#999999" otherDamage = "#FFFFFF"/> <!-- {{clr-shell-type}} -->
+		<goldShell goldTrue = "#FFAA55" goldFalse = "#FFFFFF" other = "#999999" otherDamage = "#FFFFFF"/> <!-- {{clr-shell-gold}}-->
 	</configColor>
 	
-	<!-- Значения по умолчанию для данных, значения которых определить не удалось -->
+	<!-- 无数据时的默认显示 -->
 	<configMacroDefault>
 		<formatNick>---/---</formatNick> <!-- {{tank-nick}} - никнейм атаковавшего игрока -->
 		<formatLevel>?</formatLevel> <!-- {{tank-level}} - уровень техники атаковавшего игрока -->
@@ -91,31 +91,28 @@
 		<formatSizeBurst>-</formatSizeBurst> <!-- {{burst-size}} - количество снарядов в одной кассете техники атаковавшего игрока -->
 	</configMacroDefault>
 	
-
-	<!-- Блок настройки панели -->
-
+	<!-- 当前被击中的显示方式 -->
+	<configLastShot visible = "true"> <!-- visible (true, false) -->
+		<noDamage add = "true"/> <!-- add (true, false) -->
+		<location x = "400" y = "-150" centerX = "false" centerY = "false"/>
+		<size width = "500" height = "150"/> <!-- width - ширина элемента. height - высота элемента -->
+		<filter size = "10" angle = "90" distance = "0" color = "0xE71600" alpha = "100" strength = "250"/> 
+		<delay>5</delay>
+		<format><![CDATA[<p align='center'><textformat leading='0'><font size='28' face='$IMELanguageBar'>{{hit-reason}}</font><br/><font size='15' color='{{clr-tank-team}}' face='$IMELanguageBar'>{{tank-shortname}}</font><br/><font size='12' color='{{clr-shell-gold}}' face='$IMELanguageBar'>{{shell-type}}装填:{{tank-reload}}秒</font></textformat></p>]]></format>
+	</configLastShot>
+	
 	<!-- Список истории полученного урона -->
-	<configListLog visible = "true"> <!-- visible (true, false) - отображает элемент -->
-		<showLog destroy = "false"/> <!-- destroy (true, false) - отображает список полученного урона при переключении камеры на другого игрока в посмертном режиме -->
-		<noDamage add = "true"/> <!-- add (true, false) - добавление в лог непробитий/рикошетов -->
-		<lineHit updown = "up"/> <!-- updown (up, down) - последний урон добавляется наверх списка истории полученного урона (при updown = "up") или в его низ (при updown = "down") -->
-		<addFire total = "true"/> <!-- total (true, false) - cуммирование урона от пожара в списке полученного урона -->
-		<location x = "235" y = "-5" centerX = "false" centerY = "false"/> <!-- x, y, - координаты расположения элемента относительно центра экрана (при centerX/centerY = "true") или верхнего левого угла панели (при centerX/centerY = "false") -->
+	<configListLog visible = "true"> <!-- visible (true, false) -->
+		<showLog destroy = "false"/> <!-- destroy (true, false) -->
+		<noDamage add = "true"/> <!-- add (true, false) 记录没造成伤害的数据 -->
+		<lineHit updown = "up"/> <!-- updown (up, down) 记录的插入位置 -->
+		<addFire total = "true"/> <!-- total (true, false) - 着火伤害合并 -->
+		<location x = "235" y = "-5" centerX = "false" centerY = "false"/> <!-- x, y, - 显示位置 -->
 		<size width = "500" height = "236"/> <!-- width - ширина элемента. height - высота элемента -->
 		<filter size = "5" angle = "90" distance = "0" color = "0x000000" alpha = "100" strength = "250"/> <!-- size - размер тени. angle - угол тени. distance - расстояние смещения тени. color - цвет тени. alpha - прозрачность тени. strength - степень нанесения тени -->
-		<format><![CDATA[<textformat leading='1' tabstops='[30,60,110,220,260]'><font face='$IMELanguageBar' size='13' color='#FFFFFF'>{{number}}:<tab><font color='{{clr-dmg-reason}}'><b>{{dmg-one}}</b></font><tab><font  face='$IMELanguageBar' color='{{clr-shell-gold}}'><b>{{shell-type}}</b></font><tab><font  face='$IMELanguageBar' color='{{c:vehType}}'>{{tank-shortname}}</font><tab><font  face='$IMELanguageBar'>{{tank-nick}}</font></font></textformat>]]></format> <!-- текст, который отображает строку в списке истории полученного урона (есть возможность подстановки макросов, перечисленных в конце данного файла настроек) -->
-		<format_key><![CDATA[<textformat leading='3' tabstops='[25,90,125,250]'><font face='$IMELanguageBar' color='#FFFFFF' size='15'><font color='#999999' size='13'>{{number}}.</font><tab><font face='$IMELanguageBar' color='{{clr-dmg-reason}}'><b>{{dmg-ratio-one}}%</b></font><tab>{{dmg-reason}}<tab><font face='$IMELanguageBar' color='{{clr-tank-team}}'>{{tank-class}}  {{tank-nick}}</font></font></textformat>]]></format_key> <!-- текст, который отображает строку (при нажатии альтернативной клавиши) в списке истории полученного урона (есть возможность подстановки макросов, перечисленных в конце данного файла настроек) -->
+		<format><![CDATA[<textformat leading='1' tabstops='[30,80,130,220,260]'><font face='$IMELanguageBar' size='13' color='#CCCCCC'>{{number}}:<tab><font size='15'><b>{{hit-reason}}</b></font><tab><font><b>{{dmg-reason}}</b></font><tab><font color='{{c:vehType}}' face='$IMELanguageBar'>{{tank-class}}{{tank-shortname}}</font><tab><font face='$IMELanguageBar'>   {{tank-nick}}</font></font></textformat>]]></format>
+		<format_key><![CDATA[<textformat leading='1' tabstops='[30,80,130,220,260]'><font face='$IMELanguageBar' size='13' color='#CCCCCC'>{{number}}:<tab><font size='15'><b>{{hit-reason}}</b></font><tab><font color='{{clr-shell-type}}'><b>{{dmg-reason}}</b></font><tab><font color='{{c:vehType}}' face='$IMELanguageBar'>{{tank-class}}{{tank-shortname}}</font><tab><font face='$IMELanguageBar'>   {{tank-nick}}</font></font></textformat>]]></format_key>
 	</configListLog>
-	
-	<!-- Сообщение о последнем полученном уроне -->
-	<configLastShot visible = "true"> <!-- visible (true, false) - отображает сообщение -->
-		<noDamage add = "true"/> <!-- add (true, false) - отображение в сообщении непробитий/рикошетов -->
-		<location x = "400" y = "-150" centerX = "false" centerY = "false"/> <!-- x, y, - координаты расположения сообщения относительно центра экрана (при centerX/centerY = "true") или верхнего левого угла панели (при centerX/centerY = "false") -->
-		<size width = "500" height = "150"/> <!-- width - ширина элемента. height - высота элемента -->
-		<filter size = "10" angle = "90" distance = "0" color = "0xE71600" alpha = "100" strength = "250"/> <!-- size - размер тени. angle - угол тени. distance - расстояние смещения тени. color - цвет тени. alpha - прозрачность тени. strength - степень нанесения тени -->
-		<delay>5</delay> <!-- время в секундах, по истечении которого сообщение исчезнет -->
-		<format><![CDATA[<p align='center'><textformat leading='0'><font face='$IMELanguageBar' size='25' color='{{clr-shell-gold}}'>{{hit-reason}}</font><br/><font size='15' face='$IMELanguageBar' color='{{clr-tank-team}}'>{{tank-shortname}}</font></textformat></p>]]></format> <!-- текст, который будет отображать строку с последним полученным уроном (есть возможность подстановки макросов, перечисленных в конце данного файла настроек) -->
-	</configLastShot>
 	
 	<!-- Cообщение о пожаре -->
 	<configFireMessage visible = "false"> <!-- visible (true, false) - отображает дополнительное сообщение -->
@@ -131,21 +128,21 @@
 		<format>坦克起火了!</format> <!-- отображает текст вместо стандартного сообщения о пожаре на панели (при пустом поле будет отображенно стандартное сообщение) -->
 	</configFireMessageDefault>
 	
-	<!-- Таймер с момента последнего получения урона -->
+	<!-- 装填计时器 -->
 	<configTimerHit visible = "true"> <!-- visible (true, false) - отображает таймер -->
-		<text font = "$FieldFont" size = "12" color = "0xCCCCCC" align = "left"/>
+		<text font = "$IMELanguageBar" size = "12" color = "0xCCCCCC" align = "left"/>
 		<location x = "235" y = "-25" centerX = "false" centerY = "false"/> <!-- x, y, - координаты расположения сообщения относительно центра экрана (при centerX/centerY = "true") или верхнего левого угла панели (при centerX/centerY = "false") -->
 		<size width = "500" height = "25"/> <!-- width - ширина элемента. height - высота элемента -->
 		<filter size = "5" angle = "90" distance = "0" color = "0x000000" alpha = "100" strength = "250"/> <!-- size - размер тени. angle - угол тени. distance - расстояние смещения тени. color - цвет тени. alpha - прозрачность тени. strength - степень нанесения тени -->
 		<delay>5</delay> <!-- время в секундах, по истечении которого таймер исчезнет -->
-		<delayReload add = "true"/> <!-- add (true, false) - добавляет время перезарядки стрелявшего к значению delay -->
-		<reloadTimer format = "down"/> <!-- format (up, down) - определяет формат таймера. up - обычный таймер, начинающийся с нуля, down - обратный таймер, идущий к нулю -->
-		<format><![CDATA[<textformat leading='4' tabstops='[75,150]'>[<font face='$IMELanguageBar' color='{{clr-tank-team}}'>{{tank-shortname}}</font>]<tab><font face='$IMELanguageBar'>装填还剩 {{time-reload}}  秒</font></textformat>]]></format> <!-- текст, который отображает строку с информационным таймером о времени, прошедшего с момента последнего получения урона (есть возможность подстановки макросов, перечисленных в конце данного файла настроек) -->
-		<format_key><![CDATA[<textformat leading='4' tabstops='[75,150]'>[<font face='$IMELanguageBar' color='{{clr-tank-team}}'>{{tank-shortname}}</font>]<tab><font face='$IMELanguageBar'>装填还剩 {{time-reload}}  秒</font></textformat>]]></format_key> <!-- текст, который отображает строку (при нажатии альтернативной клавиши) с информационным таймером о времени, прошедшего с момента последнего получения урона (есть возможность подстановки макросов, перечисленных в конце данного файла настроек) -->
-		<format_reload><![CDATA[[ <font face='$IMELanguageBar' color='{{clr-tank-team}}'><b>{{tank-shortname}}</b> ]</font> <font face='$IMELanguageBar'>装填完成</font>]]></format_reload> <!-- текст, который отображает строку с информационным таймером перезарядки атаковавшего игрока (есть возможность подстановки макросов, перечисленных в конце данного файла настроек) -->
-		<format_reload_key><![CDATA[[ <font face='$IMELanguageBar' color='{{clr-tank-team}}'><b>{{tank-nick}}</b> ]</font> <font face='$IMELanguageBar'>装填完成</font>]]></format_reload_key> <!-- текст, который отображает строку (при нажатии альтернативной клавиши) с информационным таймером перезарядки атаковавшего игрока (есть возможность подстановки макросов, перечисленных в конце данного файла настроек) -->
-		<format_destroy><![CDATA[ <font face='$IMELanguageBar'>被 {{tank-team}} <b>{{tank-shortname}}</b>击毁</font>]]></format_destroy> <!-- текст, который отображает строку с информационным таймером о времени, прошедшего с момента последнего получения урона (есть возможность подстановки макросов, перечисленных в конце данного файла настроек) -->
-		<format_destroy_key><![CDATA[ <font face='$IMELanguageBar'>被 {{tank-team}} <b>{{tank-nick}}</b>击毁</font>]]></format_destroy_key> <!-- текст, который отображает строку (при нажатии альтернативной клавиши) с информационным таймером о времени, прошедшего с момента последнего получения урона (есть возможность подстановки макросов, перечисленных в конце данного файла настроек) -->
+		<delayReload add = "true"/> <!-- add (true, false) -->
+		<reloadTimer format = "down"/> <!-- format (up, down) -->
+		<format><![CDATA[<textformat leading='4' tabstops='[75,150]'>[<font face='$IMELanguageBar' color='{{clr-tank-team}}'>{{tank-shortname}}</font>]<tab><font face='$IMELanguageBar'>装填还剩 {{time-reload}}  秒</font></textformat>]]></format>
+		<format_key><![CDATA[<textformat leading='4' tabstops='[75,150]'>[<font face='$IMELanguageBar' color='{{clr-tank-team}}'>{{tank-shortname}}</font>]<tab><font face='$IMELanguageBar'>装填还剩 {{time-reload}}  秒</font></textformat>]]></format_key>
+		<format_reload><![CDATA[[ <font face='$IMELanguageBar' color='{{clr-tank-team}}'><b>{{tank-shortname}}</b> ]</font> <font face='$IMELanguageBar'>装填完成</font>]]></format_reload>
+		<format_reload_key><![CDATA[[ <font face='$IMELanguageBar' color='{{clr-tank-team}}'><b>{{tank-nick}}</b> ]</font> <font face='$IMELanguageBar'>装填完成</font>]]></format_reload_key>
+		<format_destroy><![CDATA[ <font color='{{clr-tank-team}}' face='$IMELanguageBar'>被 {{tank-team}} <b>{{tank-shortname}}</b>击毁</font>]]></format_destroy>
+		<format_destroy_key><![CDATA[ <font color='{{clr-tank-team}}' face='$IMELanguageBar'>被 {{tank-team}} <b>{{tank-nick}}</b>击毁</font>]]></format_destroy_key>
 	</configTimerHit>
 	
 	<!-- Ремонт выведенного из строя модуля -->
@@ -153,16 +150,16 @@
 	<configRepairTimer visible = "true"> <!-- visible (true, false) - отображает таймер ремонта -->
 		<location x = "6" y = "4"/> <!-- x, y, - координаты расположения таймера относительно верхнего левого угла изображения иконки модуля -->
 		<size width = "45" height = "39"/> <!-- width - ширина элемента. height - высота элемента -->
-		<text font = "$FieldFont" size = "12" color = "0xCCCCCC" align = "left"/> <!-- font - шрифт, который должен быть установлен на компьютере. size - размер шрифта. color - цвет шрифта в формате HEX. align (left, right, center) - выравнивание текста --> 
+		<text font = "$IMELanguageBar" size = "12" color = "0xCCCCCC" align = "left"/> <!-- font - шрифт, который должен быть установлен на компьютере. size - размер шрифта. color - цвет шрифта в формате HEX. align (left, right, center) - выравнивание текста --> 
 		<filter size = "5" angle = "90" distance = "0" color = "0x000000" alpha = "100" strength = "250"/> <!-- size - размер тени. angle - угол тени. distance - расстояние смещения тени. color - цвет тени. alpha - прозрачность тени. strength - степень нанесения тени -->
-		<format>秒</format> <!-- формат отображения таймера ремонта модуля (sec - "xx", dsec - "xx.x", csec - "xx.xx") -->
+		<format>sec</format> <!-- формат отображения таймера ремонта модуля (sec - "xx", dsec - "xx.x", csec - "xx.xx") -->
 	</configRepairTimer>
 	
 	<!-- Никнейм игрока -->
 	<configPlayerName visible = "true"> <!-- visible (true, false) - отображает элемент -->
 		<location x = "3" y = "4" centerX = "false" centerY = "false"/> <!-- x, y, - координаты расположения элемента относительно центра экрана (при centerX/centerY = "true") или верхнего левого угла панели (при centerX/centerY = "false") -->
 		<size width = "100" height = "22"/> <!-- width - ширина элемента. height - высота элемента -->
-		<text font = "$FieldFont" size = "12" color = "0x7F7D6A" align = "left"/> <!-- font - шрифт, который должен быть установлен на компьютере. size - размер шрифта. color - цвет шрифта в формате HEX. align (left, right, center) - выравнивание текста -->
+		<text font = "$IMELanguageBar" size = "12" color = "0x7F7D6A" align = "left"/> <!-- font - шрифт, который должен быть установлен на компьютере. size - размер шрифта. color - цвет шрифта в формате HEX. align (left, right, center) - выравнивание текста -->
 		<filter size = "1" angle = "90" distance = "1" color = "0x000000" alpha = "100" strength = "100"/> <!-- size - размер тени. angle - угол тени. distance - расстояние смещения тени. color - цвет тени. alpha - прозрачность тени. strength - степень нанесения тени -->
 	</configPlayerName>
 	
@@ -170,7 +167,7 @@
 	<configTankName visible = "true"> <!-- visible (true, false) - отображает элемент -->
 		<location x = "105" y = "4" centerX = "false" centerY = "false"/> <!-- x, y, - координаты расположения элемента относительно центра экрана (при centerX/centerY = "true") или верхнего левого угла панели (при centerX/centerY = "false") -->
 		<size width = "120" height = "22"/> <!-- width - ширина элемента. height - высота элемента -->
-		<text font = "$FieldFont" size = "12" color = "0x7F7D6A" align = "right"/> <!-- font - шрифт, который должен быть установлен на компьютере. size - размер шрифта. color - цвет шрифта в формате HEX. align (left, right, center) - выравнивание текста --> 
+		<text font = "$IMELanguageBar" size = "12" color = "0x7F7D6A" align = "right"/> <!-- font - шрифт, который должен быть установлен на компьютере. size - размер шрифта. color - цвет шрифта в формате HEX. align (left, right, center) - выравнивание текста --> 
 		<filter size = "1" angle = "90" distance = "1" color = "0x000000" alpha = "100" strength = "100"/> <!-- size - размер тени. angle - угол тени. distance - расстояние смещения тени. color - цвет тени. alpha - прозрачность тени. strength - степень нанесения тени -->
 	</configTankName>
 	
@@ -187,7 +184,7 @@
 	<configSpeedUnit visible = "true"> <!-- visible (true, false) - отображает элемент -->
 		<location x = "69" y = "47" centerX = "false" centerY = "false"/> <!-- x, y, - координаты расположения элемента относительно центра экрана (при centerX/centerY = "true") или верхнего левого угла панели (при centerX/centerY = "false") -->
 		<size width = "65" height = "15"/> <!-- width - ширина элемента. height - высота элемента -->
-		<text font = "$FieldFont" size = "8" color = "0x57543E" alpha = "100" align = "left"/> <!-- font - шрифт, который должен быть установлен на компьютере. size - размер шрифта. color - цвет шрифта в формате HEX. align (left, right, center) - выравнивание текста --> 
+		<text font = "$IMELanguageBar" size = "8" color = "0x57543E" alpha = "100" align = "left"/> <!-- font - шрифт, который должен быть установлен на компьютере. size - размер шрифта. color - цвет шрифта в формате HEX. align (left, right, center) - выравнивание текста --> 
 		<filter size = "2" angle = "90" distance = "0" color = "0x000000" alpha = "100" strength = "45"/> <!-- size - размер тени. angle - угол тени. distance - расстояние смещения тени. color - цвет тени. alpha - прозрачность тени. strength - степень нанесения тени -->
 		<format>km/h</format> <!-- текст, который будет отображать единицы скорости танка -->
 	</configSpeedUnit>
@@ -196,7 +193,7 @@
 	<configSpeedTank visible = "true"> <!-- visible (true, false) - отображает элемент -->
 		<location x = "65" y = "55" centerX = "false" centerY = "false"/> <!-- x, y, - координаты расположения элемента относительно центра экрана (при centerX/centerY = "true") или верхнего левого угла панели (при centerX/centerY = "false") -->
 		<size width = "30" height = "25"/> <!-- width - ширина элемента. height - высота элемента -->
-		<text font = "$FieldFont" size = "15" color = "0x888359" alpha = "100" align = "left"/> <!-- font - шрифт, который должен быть установлен на компьютере. size - размер шрифта. color - цвет шрифта в формате HEX. align (left, right, center) - выравнивание текста --> 
+		<text font = "$IMELanguageBar" size = "15" color = "0x888359" alpha = "100" align = "left"/> <!-- font - шрифт, который должен быть установлен на компьютере. size - размер шрифта. color - цвет шрифта в формате HEX. align (left, right, center) - выравнивание текста --> 
 		<filter size = "2" angle = "90" distance = "0" color = "0x000000" alpha = "100" strength = "45"/> <!-- size - размер тени. angle - угол тени. distance - расстояние смещения тени. color - цвет тени. alpha - прозрачность тени. strength - степень нанесения тени -->
 	</configSpeedTank>
 	
@@ -210,7 +207,7 @@
 	</configKey>
 	
 	<!-- Звуковое сопровождение событий -->
-	<configSound included = "on"> <!-- included (on, off) - общий переключатель -->
+	<configSound included = "off"> <!-- included (on, off) - общий переключатель -->
 		<developments fireAlert = "on" criticalAmmoBay = "on"/> <!-- fireAlert (on, off) - горение танка. criticalAmmoBay (on, off) - критическое повреждение боеукладки --> 
 	</configSound>
 	

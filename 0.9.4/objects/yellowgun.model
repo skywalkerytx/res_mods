@@ -1,0 +1,10 @@
+<yellowgun.model>
+  <materialNames>
+  </materialNames>
+  <visibilityBox>
+    <min>	-0.071808 -0.129517 -0.074841	</min>
+    <max>	0.671042 0.130313 2.116898	</max>
+  </visibilityBox>
+  <tank>	true	</tank>
+  <nodefullVisual>objects/yellowgun</nodefullVisual>
+</yellowgun.model>

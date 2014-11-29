@@ -1,59 +1,55 @@
-<MinimapDestructible>
+<ModificationDestructible>
 	
-	<!-- Enable / Disable the modification of the default -->
+	<!-- Состояние модификации по умолчанию -->
 	<minimapEnable>1</minimapEnable>
-	<!-- Options: 0 — Disable, 1 — Enable -->
+	<!-- Параметры: 0 — деактивировать, 1 — активировать -->
 	
-	<!-- Modification language of the default -->
-	<minimapSpeech>EN</minimapSpeech>
-	<!-- Options: EN — English, RU — Russian -->
-	
-	<!-- Option display mode of destruction of objects-->
+	<!-- Вариант режима отображения разрушений объектов-->
 	<minimapRegime>1</minimapRegime>
-	<!-- Options: 1 — standard , 2 — markers -->
+	<!-- Параметры: 1 — стандартный , 2 — только маркеры -->
 	
-	<!-- Button activate / deactivate the modification -->
+	<!-- Клавиша активации / деактивации модификации -->
 	<minimapButton>KEY_F2</minimapButton>
-	<!-- Options: for complete deactivation need to remove the line -->
+	<!-- Параметры: для полной деактивации нужно удалить строку -->
 	
-	<!-- Type marker option by default -->
+	<!-- Вариант отображения маркера отметок по умолчанию -->
 	<minimapMarker>1</minimapMarker>
-	<!-- Options: 1 — standard, 2 — use a marker of minimap.swf -->
+	<!-- Параметры: 1 — стандартный, 2 — подключить из Minimap -->
 	
-	<!-- Animation pulse option by default -->
+	<!-- Вариант красной пульсации по умолчанию -->
 	<minimapPulses>2</minimapPulses>
-	<!-- Options: 0 — Disable, option settings 1 to 5 -->
+	<!-- Параметры: 0 — деактивировать, предустановлено от 1 до 13 -->
 	
-	<!-- Sound notification option by default -->
-	<minimapNotice>3</minimapNotice>
-	<!-- Options: 0 — Disable, option settings 1 to 5 -->
+	<!-- Вариант звукового оповещения отметок по умолчанию -->
+	<minimapNotice>0</minimapNotice>
+	<!-- Параметры: 0 — деактивировать, предустановлено от 1 до 5 -->
 	
-	<!-- Range inclusion marker and direction indicator -->
+	<!-- Дальность включения маркера и индикатора направления -->
 	<vehicleSquare>300</vehicleSquare>
-	<!-- Options: any number in meters (recommended 150 to 400) -->
+	<!-- Параметры: любое число в метрах (рекомендуется от 150 до 400) -->
 	
-	<!-- Display option default marker -->
+	<!-- Вариант отображения индикатора маркера по умолчанию -->
 	<vehicleMarker>2</vehicleMarker>
-	<!-- Options: 0 — Disable, option settings 1 to 2 -->
+	<!-- Параметры: 0 — деактивировать, предустановлено от 1 до 2 -->
 	
-	<!-- Color an indicator display the default direction -->
+	<!-- Вариант цвета отображения индикатора направления по умолчанию -->
 	<vehicleDetect>1</vehicleDetect>
-	<!-- Options: 0 — Disable, option settings 1 to 3 -->
+	<!-- Параметры: 0 — деактивировать, предустановлено от 1 до 3 -->
 	
-	<!-- Option display labels on the minimap -->
+	<!-- Вариант отображения отметок на миникарте -->
 	<minimapMethod>2</minimapMethod>
-	<!-- Options: 1 — static mode, 2 - dynamic mode -->
+	<!-- Параметры: 1 — статический  режим, 2 — динамический режим -->
 	
-	<!-- Sensitivity markers of the default -->
-	<minimapLength>25</minimapLength>
-	<!-- Options: any number (recommended 25 to 40) -->
+	<!-- Чувствительности отметок по умолчанию -->
+	<minimapLength>30</minimapLength>
+	<!-- Параметры: любое число в метрах (рекомендуется от 25 до 40) -->
 	
-	<!-- Timer to delay execution of the inverse function (affects FPS) -->
-	<callmapUpdate>0.1</callmapUpdate>
-	<!-- Options: any number (recommended 0.1 to 1.5) -->
+	<!-- Таймер задержки выполнения обратной функции (влияет на FPS) -->
+	<callmapUpdate>0.5</callmapUpdate>
+	<!-- Параметры: любое число в секундах (рекомендуется от 0.1 до 1.5) -->
 	
-	<!-- Timer remove marks on the minimap -->
+	<!-- Значение таймера удаления отметок на миникарте -->
 	<minimapRemain>15</minimapRemain>
-	<!-- Options: any number (the value in seconds) -->
+	<!-- Параметры: любое число в секундах (рекомендуется от 10 до 15) -->
 	
-</MinimapDestructible>
+</ModificationDestructible>

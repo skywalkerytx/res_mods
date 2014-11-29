@@ -1,4 +1,4 @@
-/*
+﻿/*
 	30x放大
 	The number of steps in the sniper scope and multiplicity of theirs.
 */
@@ -8,5 +8,5 @@
 	
 	// List of multiplicity sniper mode.
 	// minimum value - 0.8, maximum value - 60, maximum number of steps - 20.
-	"zoomXSteps" : [2, 4, 8, 16, 32]
+	"zoomXSteps" : [2, 8, 16, 30]
 }
