@@ -1,23 +1,13 @@
 <ZoomIndicator.xml>
-  <enable>True</enable>
-  <shadow>True</shadow>
+  <enable>False</enable>
+  <shadow>False</shadow>
   <text>
-    <color>
-      <R>255</R>
-      <G>0</G>
-      <B>0</B>
-      <A>255</A>
-    </color>
+    <color>FF0000FF</color>
     <position>
       <X>860</X>
       <Y>300</Y>
     </position>
-    <colorS>
-      <R>0</R>
-      <G>0</G>
-      <B>0</B>
-      <A>255</A>
-    </colorS>
+    <colorS>000000FF</colorS>
     <positionS>
       <X>862</X>
       <Y>302</Y>

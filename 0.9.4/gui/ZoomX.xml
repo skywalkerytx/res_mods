@@ -1,23 +1,11 @@
 <ZoomX.xml>
     <!--
-        Мног?ступенчаты?снайперскийо прицел
-        <zoomX>True</zoomX> - включе?
-        <zoomX>False</zoomX> - отключен (равносильн?отсутствию модификаци?
-        Если данный файл(gui/zoomX.xml) отсутствуе?- равносильн?"<zoomX>False</zoomX>"
-    -->
-    <!--
         "True" enable Multistage zoom in sniper mode. "False" disables (default).
     --> 
-    <zoomX>True</zoomX>
-
-    <!--
-        Возможно определить нескольк?значений до 10 включительно
-        Разделение значений знаком "пробел"
-        Возможно устанавливат?не целы?значен?. например 0.5, 0.7, 2.8 ???
-        Параметр <zooms> ?этом файл?работает исключительн??<zoomX>True</zoomX>
-    -->
+    <zoomX>False</zoomX>
+	
     <!--
         Up to 10 steps can be configured, separate each one with "SPACE" key. No higher than 30x (default 2 4 8).
     --> 
-    <zooms>2 4 8 16 30</zooms>
+    <zooms>1 2 3 5 8 12 17 23 30</zooms>
 </ZoomX.xml>
